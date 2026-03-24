@@ -1,0 +1,26 @@
+Script "Dashboard Analytics" name="Dashboard Analytics"
+Browser find tagname=a text="Create Report" elaction=click timeout=30s
+Wait 5s
+Compareto "Captura de tela 2026-03-23 6.png" method=search2
+Wait 5s
+if ({_EXIT_CODE} != 0) {
+    Warning "Error Dashboard Analytics"
+}
+Click image template=image6.png
+Waitfor match method=search2 template=image3.png
+Browser find tagname=a text=Upgrade elaction=click timeout=30s
+Wait 4s
+Compareto image7.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Error Dashboard Analytics Contact Us"
+}
+if ({_EXIT_CODE} == 0) {
+    Click image template=image8.png
+    Compareto image5.png method=search2
+    if ({_EXIT_CODE} != 0) {
+        Warning "Error Dashboard Analytics Support"
+    } 
+}
+Click image template=image6.png
+
+Script "Dashboard Analytics" action=end name="Dashboard Analytics"

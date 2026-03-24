@@ -1,0 +1,13 @@
+Script "Dashboard World Customization" name="Dashboard World Customization"
+Browser find class="font-sans text-sm font-semibold text-green-4A inline-block cursor-pointer" text=Edit elaction=click timeout=30s href="/grid/editgrid?grid=1001261"
+Compareto image22.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard World Customization Edit Error"
+}
+Click image template=image6.png
+Browser find tagname=img elaction=click timeout=30s src=/static/dashboard-show-features.png
+Compareto "Captura de tela 2026-03-23 102329.png" method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard World Customization + Error"
+}
+Script "Dashboard World Customization" action=end name="Dashboard World Customization"
