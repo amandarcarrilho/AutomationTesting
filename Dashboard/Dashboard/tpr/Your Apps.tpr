@@ -1,0 +1,33 @@
+Script "Dashboard Your Apps" name="Dashboard Your Apps"
+Browser find tagname=img elaction=click timeout=30s src=/static/Windows-grey.png
+Compareto image4.png;image9.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard Your Apps Windows Button Error"
+}
+if ({_EXIT_CODE} == 0) {
+    Click image template=image10.png
+}
+Browser find tagname=img elaction=click timeout=30s src=/static/iPhone-grey.png
+Compareto image4.png;image9.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard Your Apps Apple Button Error"
+}
+if ({_EXIT_CODE} == 0) {
+    Click image template=image10.png
+}
+Browser find tagname=a text=Details elaction=click timeout=30s href="/grid/apps?grid=1001261"
+Compareto image4.png;image9.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard Your Apps Details Error"
+}
+if ({_EXIT_CODE} == 0) {
+    Click image template=image10.png
+}
+Browser find tagname=a text="World Stream URL >>" elaction=click timeout=30s
+Browser switch url=https://qa-sine.space/worldstream/embed/GUyRUjnDgOeUwEoK continue=false
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard Your Apps World Stream Url Error"
+}
+Browser switch url="https://curator.qa-sine.space/grid/dashboard?grid=1001261" continue=false
+
+Script "Dashboard Your Apps" action=end name="Dashboard Your Apps"
