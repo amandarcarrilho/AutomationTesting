@@ -1,0 +1,14 @@
+Script "Change Region" name="Change Region"
+Click image template=comp0313-20
+Click image template=comp0313-27 cmparea=x:102,y:91,w:449,h:487
+Wait 30s
+Compareto image41.png method=search2 passrate=50 cmparea=x:28,y:93,w:1199,h:675
+if ({_EXIT_CODE} != 0) {
+    Warning "FAIL change region"
+}
+if ({_EXIT_CODE} == 0) {
+    Click image template=comp0313-22
+    Click image template=image17.png passrate=50
+    Wait 2100
+}
+Script "Change Region" action=end name="Change Region"

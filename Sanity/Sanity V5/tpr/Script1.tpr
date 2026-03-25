@@ -1,0 +1,14 @@
+Script Chat name=Chat
+Click image template=comp0313-6
+Click image template=comp0313-7
+Type test wait=1300
+Press Enter wait=2800
+Compareto image39.png method=search2 passrate=50
+if ({_EXIT_CODE} == 0) {
+    Click image template=image19.png;image35.png
+
+}
+if ({_EXIT_CODE} != 0) {
+    Warning "error chat"
+}
+Script Chat action=end name=Chat
