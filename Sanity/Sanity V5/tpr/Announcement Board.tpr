@@ -1,0 +1,15 @@
+Script Announcement name=Announcement
+Click image template=image22.png
+Click image template=image23.png
+Click image template=image24.png
+Type "Hello everyone! We're Starting in ten minutes"
+Click image template=image37.png
+Waitfor match method=search2 template=image21.png
+Compareto image25.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Error Announcement"
+}
+if ({_EXIT_CODE} == 0) {
+    Click image template=image27.png
+}
+Script Announcement action=end name=Announcement
