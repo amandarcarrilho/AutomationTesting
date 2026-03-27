@@ -1,0 +1,19 @@
+Press Windows+R wait=900
+Type "\"C:\Users\amand\Desktop\Testing\sinespace qa\Sinespace_Release_2026_1f864_Win64\Sinespace.exe\""
+Press Enter wait=11400
+Press F11
+Script "Avatar change" name="avatar change"
+Click image template=comp0312-15
+Click image template=comp0312-17 passrate=100 cmparea=x:5,y:64,w:75,h:153
+Click image template=image36.png
+Click image template=comp0312-17
+Compareto image14.png method=search2
+if ({_EXIT_CODE} == 0) {
+    Click image template=comp0312-17
+    Click image template=image16.png
+    Click image template=comp0312-17
+}
+if ({_EXIT_CODE} != 0) {
+    Warning error
+}
+Script "Avatar change" action=end name="Avatar change"

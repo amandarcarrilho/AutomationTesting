@@ -1,0 +1,20 @@
+Script "Mic and Cam" name="Mic and Cam"
+Click image template=comp0313-12
+Moveto image template=comp0313-13
+Compareto image18.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "error mic"
+}
+if ({_EXIT_CODE} == 0) {
+    Click image template=comp0313-14
+}
+Click image template=comp0313-15
+Click image template=comp0313-16
+Compareto image15.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "error device change"
+}
+if ({_EXIT_CODE} == 0) {
+    Click image template=comp0313-17
+}
+Script "Mic and Cam" action=end name="Mic and Cam"

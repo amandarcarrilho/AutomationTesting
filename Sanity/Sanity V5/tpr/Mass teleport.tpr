@@ -1,0 +1,18 @@
+Script "Mass TP" name="Mass TP"
+Click image template=image26.png
+Click image template=image29.png
+Click image template=image30.png
+Click image template=image42.png passrate=50
+Click image template=image38.png
+Click image template=image28.png
+Click image template=image34.png
+Waitfor match method=search2 template=image40.png
+Compareto image33.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Error Mass TP"
+}
+if ({_EXIT_CODE} == 0) {
+    Click image template=image31.png
+}
+
+Script "Mass TP" action=end name="Mass TP"

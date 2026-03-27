@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><tprproject>
+    <date>11-03-26 10:47</date>
+    <uid>p19cdd276a0f</uid>
+    <editor>C:\Users\amand\New Sanit\tpr\Sanity V5.tpr</editor>
+    <ver>1</ver>
+    <workitems/>
+    <offset>0</offset>
+    <paths>
+        <reports>reports</reports>
+        <templates>templates</templates>
+        <schedules>schedules</schedules>
+        <stype1>tpr</stype1>
+        <stype2>src</stype2>
+        <sotype2>classes</sotype2>
+    </paths>
+    <tver>8.2.2-20260210.1</tver>
+    <lastmod>26-03-26 09:51</lastmod>
+    <editors>tpr\Recorded.tpr;tpr\Basic Movements.tpr;tpr\Script1.tpr;tpr\Mic and Cam.tpr;tpr\Change Region.tpr;tpr\Announcement Board.tpr;tpr\Mass teleport.tpr;tpr\Sanity V5.tpr</editors>
+    <topoffset>0</topoffset>
+</tprproject>

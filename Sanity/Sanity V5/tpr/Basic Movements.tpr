@@ -1,0 +1,16 @@
+Script "Basic Movements" name="Basic Movements"
+Press W count=2
+Press S count=2
+Press A count=2
+Press D count=2
+Press R count=2
+Press F count=2
+Press C count=2
+Press UP
+Press DOWN
+Press LEFT
+Press RIGHT
+Press PAGEUP count=9
+Press PAGEDOWN count="1"
+Press F
+Script "Basic Movements" action=end name="Basic Movements"
