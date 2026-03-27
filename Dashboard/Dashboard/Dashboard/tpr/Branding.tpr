@@ -1,0 +1,17 @@
+Script "Dashboard Branding" name="Dashboard Branding"
+Mouse drag to=x:1914,y:998 from=x:1912,y:593
+Compareto image21.png method=search2
+Compareto image18.png method=search2
+Compareto image19.png method=search2
+Compareto image20.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard Branding Error"
+}
+Browser find class="font-sans text-sm font-semibold text-green-4A inline-block cursor-pointer" tagname=a text=Upload elaction=click timeout=30s href="/grid/editgrid?grid=1001261"
+Mouse drag to=x:1914,y:1013 from=x:1912,y:842
+Browser find class="items-center text-center m-auto" tagname=div timeout=30s
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard Branding Upload Error"
+}
+Click image template=image6.png
+Script "Dashboard Branding" action=end name="Dashboard Branding"
