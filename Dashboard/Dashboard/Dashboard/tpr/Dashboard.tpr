@@ -1,8 +1,0 @@
-Report "results.xml"
-Run Analytics.tpr
-Run "Your Apps.tpr"
-Run "World Credits and Balance.tpr"
-Run Billing.tpr
-Run Branding.tpr
-Run "World Customization.tpr"
-Run "Manage Users.tpr"
