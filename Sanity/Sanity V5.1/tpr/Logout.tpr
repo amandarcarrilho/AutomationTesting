@@ -1,9 +1,0 @@
-Script "Logout App" name="Logout App"
-Click image template=image48.png
-Click image template=image49.png
-Click image template=image50.png
-Click image template=image51.png
-if ({_EXIT_CODE} != 0) {
-    Warning "Sanity Logout Fail"
-}
-Script "Logout App" action=end name="Logout App"
