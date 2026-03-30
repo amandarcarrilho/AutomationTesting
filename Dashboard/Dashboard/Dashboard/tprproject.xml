@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><tprproject>
+    <date>19-03-26 16:21</date>
+    <uid>p19d078b46f4</uid>
+    <editor>C:\Users\amand\Dashboard\tpr\Billing.tpr</editor>
+    <ver>1</ver>
+    <workitems/>
+    <offset>637</offset>
+    <paths>
+        <reports>reports</reports>
+        <templates>templates</templates>
+        <schedules>schedules</schedules>
+        <stype1>tpr</stype1>
+        <stype2>src</stype2>
+        <sotype2>classes</sotype2>
+    </paths>
+    <tver>8.2.2-20260210.1</tver>
+    <lastmod>30-03-26 15:32</lastmod>
+    <editors>tpr\Dashboard.tpr;tpr\Login.tpr;tpr\Manage Users.tpr;tpr\Analytics.tpr;tpr\Your Apps.tpr;tpr\World Credits and Balance.tpr;tpr\open.tpr;tpr\Billing.tpr;tpr\Branding.tpr;tpr\World Customization.tpr;tpr\Analytics.tpr</editors>
+    <topoffset>0</topoffset>
+</tprproject>
