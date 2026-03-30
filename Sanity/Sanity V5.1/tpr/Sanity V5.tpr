@@ -1,0 +1,8 @@
+Report "results.xml"
+Run Recorded.tpr
+Run Script1.tpr
+Run "Mic and Cam.tpr"
+Run "Change Region.tpr"
+Run "Announcement Board.tpr"
+Run "Mass teleport.tpr"
+Run "Basic Movements.tpr"
