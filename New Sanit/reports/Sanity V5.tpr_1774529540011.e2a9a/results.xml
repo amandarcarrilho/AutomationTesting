@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="template.xsl"?><testsuite name="file:/C:/Users/amand/New%20Sanit/tpr/Sanity%20V5.tpr" tests="2" time="59.647">
+    <testcase index="1" name="avatar change" number="Avatar change"/>
+    <testcase index="2" name="Chat" number="Chat"/>
+    <properties>
+        <property name="XSL_CONFIG_ATTACH_SCRIPTS" value="true"/>
+        <property name="XSL_CONFIG_ATTACH_TEMPLATES" value="true"/>
+        <property name="XSL_CONFIG_CREATE_COMMENT_TABLE" value="false"/>
+        <property name="XSL_CONFIG_CREATE_COMPARISON_TABLE" value="false"/>
+        <property name="XSL_CONFIG_CREATE_WARNING_TABLE" value="true"/>
+        <property name="XSL_CONFIG_DISPLAY_FAILED_COMPARISONS_ONLY" value="false"/>
+        <property name="XSL_CONFIG_DISPLAY_WARNINGS" value="true"/>
+        <property name="XSL_CONFIG_INCLUDE_STEPS_IN_BODY" value="true"/>
+        <property name="XSL_END_TIME" value="1774529599657"/>
+        <property name="XSL_PARAM_DURATION_SECONDS" value="59"/>
+        <property name="XSL_PARAM_DURATION_STRING" value="2026-03-26 09:52 - 2026-03-26 09:53 (59 seconds)"/>
+        <property name="XSL_PARAM_LOG_FILE" value="log.html"/>
+        <property name="XSL_PARAM_STATUS" value="0"/>
+        <property name="XSL_START_TIME" value="1774529540011"/>
+        <property name="_CAPSLOCK_ON" value="false"/>
+        <property name="_COMPARETO_CLICK_X" value="55"/>
+        <property name="_COMPARETO_CLICK_X_1" value="55"/>
+        <property name="_COMPARETO_CLICK_Y" value="165"/>
+        <property name="_COMPARETO_CLICK_Y_1" value="165"/>
+        <property name="_COMPARETO_DISPLAY_NO" value="3"/>
+        <property name="_COMPARETO_DISPLAY_NO_1" value="3"/>
+        <property name="_COMPARETO_PASS_RATE" value="50.0"/>
+        <property name="_COMPARETO_RESULT" value="100.0"/>
+        <property name="_COMPARETO_SOURCE_X" value="34"/>
+        <property name="_COMPARETO_SOURCE_Y" value="315"/>
+        <property name="_COMPARETO_TEMPLATE" value="C:\Users\amand\New Sanit\templates\comp0312-17\image3.png"/>
+        <property name="_COMPARETO_TEMPLATE_HEIGHT" value="38"/>
+        <property name="_COMPARETO_TEMPLATE_INDEX" value="0"/>
+        <property name="_COMPARETO_TEMPLATE_WIDTH" value="38"/>
+        <property name="_COMPARETO_TIME_IN_MS" value="121"/>
+        <property name="_CURDATE" value="2026 Mar 26 09:52:20"/>
+        <property name="_CURDATE_FORMAT" value=""/>
+        <property name="_CURRENT_FILE" value=""/>
+        <property name="_CURRENT_FILENAME" value=""/>
+        <property name="_CURTIME" value="1774529540015"/>
+        <property name="_DATE" value="20260326"/>
+        <property name="_DESKTOP_HEIGHT" value="1080"/>
+        <property name="_DESKTOP_WIDTH" value="1920"/>
+        <property name="_DISPLAY_COUNT" value="1"/>
+        <property name="_DISPLAY_H_1" value="1080"/>
+        <property name="_DISPLAY_W_1" value="1920"/>
+        <property name="_DISPLAY_X_1" value="0"/>
+        <property name="_DISPLAY_Y_1" value="0"/>
+        <property name="_ENV_=::" value="::\"/>
+        <property name="_ENV_ALLUSERSPROFILE" value="C:\ProgramData"/>
+        <property name="_ENV_AMDRMSDKPATH" value="C:\Program Files\AMD\RyzenMasterSDK\"/>
+        <property name="_ENV_APPDATA" value="C:\Users\amand\AppData\Roaming"/>
+        <property name="_ENV_COMPUTERNAME" value="AMANDA"/>
+        <property name="_ENV_ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+        <property name="_ENV_CommonProgramFiles" value="C:\Program Files\Common Files"/>
+        <property name="_ENV_CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+        <property name="_ENV_CommonProgramW6432" value="C:\Program Files\Common Files"/>
+        <property name="_ENV_DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+        <property name="_ENV_EFC_19520_1262719628" value="1"/>
+        <property name="_ENV_EFC_19520_1592913036" value="1"/>
+        <property name="_ENV_EFC_19520_2283032206" value="1"/>
+        <property name="_ENV_EFC_19520_2775293581" value="1"/>
+        <property name="_ENV_EFC_19520_3789132940" value="1"/>
+        <property name="_ENV_FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+        <property name="_ENV_FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+        <property name="_ENV_HOMEDRIVE" value="C:"/>
+        <property name="_ENV_HOMEPATH" value="\Users\amand"/>
+        <property name="_ENV_LOCALAPPDATA" value="C:\Users\amand\AppData\Local"/>
+        <property name="_ENV_LOGONSERVER" value="\\AMANDA"/>
+        <property name="_ENV_NUMBER_OF_PROCESSORS" value="12"/>
+        <property name="_ENV_OS" value="Windows_NT"/>
+        <property name="_ENV_OneDrive" value="C:\Users\amand\OneDrive"/>
+        <property name="_ENV_PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+        <property name="_ENV_PROCESSOR_ARCHITECTURE" value="AMD64"/>
+        <property name="_ENV_PROCESSOR_IDENTIFIER" value="AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD"/>
+        <property name="_ENV_PROCESSOR_LEVEL" value="25"/>
+        <property name="_ENV_PROCESSOR_REVISION" value="2102"/>
+        <property name="_ENV_PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+        <property name="_ENV_PUBLIC" value="C:\Users\Public"/>
+        <property name="_ENV_Path" value="C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Sunshine;C:\Program Files\Sunshine\tools;C:\Users\amand\AppData\Local\Microsoft\WindowsApps;C:\Users\amand\AppData\Local\GitHubDesktop\bin;C:\Program Files\T-Plan\Robot\app"/>
+        <property name="_ENV_ProgramData" value="C:\ProgramData"/>
+        <property name="_ENV_ProgramFiles" value="C:\Program Files"/>
+        <property name="_ENV_ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+        <property name="_ENV_ProgramW6432" value="C:\Program Files"/>
+        <property name="_ENV_SESSIONNAME" value="Console"/>
+        <property name="_ENV_SystemDrive" value="C:"/>
+        <property name="_ENV_SystemRoot" value="C:\WINDOWS"/>
+        <property name="_ENV_TEMP" value="C:\Users\amand\AppData\Local\Temp"/>
+        <property name="_ENV_TMP" value="C:\Users\amand\AppData\Local\Temp"/>
+        <property name="_ENV_USERDOMAIN" value="AMANDA"/>
+        <property name="_ENV_USERDOMAIN_ROAMINGPROFILE" value="AMANDA"/>
+        <property name="_ENV_USERNAME" value="amand"/>
+        <property name="_ENV_USERPROFILE" value="C:\Users\amand"/>
+        <property name="_ENV_windir" value="C:\WINDOWS"/>
+        <property name="_EXECUTION_SPEED_FACTOR" value="1.0"/>
+        <property name="_EXIT_CODE" value="0"/>
+        <property name="_FILE" value="C:\Users\amand\New Sanit\tpr\Sanity V5.tpr"/>
+        <property name="_FILENAME" value="Sanity V5.tpr"/>
+        <property name="_FPS" value=";"/>
+        <property name="_FS" value="\"/>
+        <property name="_INSTALL_DIR" value="C:\Program Files\T-Plan\Robot\app"/>
+        <property name="_JAVA_VENDOR" value="Oracle Corporation"/>
+        <property name="_JAVA_VERSION" value="25.0.2"/>
+        <property name="_LAST_CMP_COMMAND" value="Click image template=comp0312-17"/>
+        <property name="_LOG_SEVERE_COUNT" value="0"/>
+        <property name="_LOG_WARNING_COUNT" value="0"/>
+        <property name="_MACHINE" value="localhost"/>
+        <property name="_MOUSE_X" value="41"/>
+        <property name="_MOUSE_Y" value="96"/>
+        <property name="_NUMLOCK_ON" value="true"/>
+        <property name="_OS_ARCH" value="amd64"/>
+        <property name="_OS_NAME" value="Windows 11"/>
+        <property name="_OS_VERSION" value="Windows 11"/>
+        <property name="_PORT" value=""/>
+        <property name="_PRODUCT_HOME_PAGE" value="http://www.t-plan.com/robot"/>
+        <property name="_PRODUCT_INSTALL_DIR" value="C:\Program Files\T-Plan\Robot\app"/>
+        <property name="_PRODUCT_NAME" value="T-Plan Robot Enterprise"/>
+        <property name="_PRODUCT_VERSION_LONG" value="8.2.2-20260210.1"/>
+        <property name="_PRODUCT_VERSION_SHORT" value="8.2.2"/>
+        <property name="_PROJECT_DIR" value="C:\Users\amand\New Sanit"/>
+        <property name="_PROJECT_REPORT_DIR" value="C:\Users\amand\New Sanit\reports"/>
+        <property name="_PROJECT_REPORT_UNIQUE_DIR" value="C:\Users\amand\New Sanit\reports\Sanity V5.tpr_1774529540011.e2a9a"/>
+        <property name="_PROJECT_TEMPLATE_DIR" value="C:\Users\amand\New Sanit\templates"/>
+        <property name="_PROTOCOL" value=""/>
+        <property name="_RANDOM" value="9030"/>
+        <property name="_RANDOM_MAX" value="100000"/>
+        <property name="_RANDOM_MIN" value="0"/>
+        <property name="_REPORT_DIR" value="C:\Users\amand\New Sanit\reports\Sanity V5.tpr_1774529540011.e2a9a"/>
+        <property name="_REPORT_FILE" value="C:\Users\amand\New Sanit\reports\Sanity V5.tpr_1774529540011.e2a9a\results.xml"/>
+        <property name="_REPORT_FILENAME" value="results.xml"/>
+        <property name="_REPORT_FILENAME_1" value="results.xml"/>
+        <property name="_REPORT_FILENAME_XML" value="results.xml"/>
+        <property name="_REPORT_FILE_1" value="C:\Users\amand\New Sanit\reports\Sanity V5.tpr_1774529540011.e2a9a\results.xml"/>
+        <property name="_REPORT_FILE_RELATIVE" value="Sanity V5.tpr_1774529540011.e2a9a\results.xml"/>
+        <property name="_REPORT_FILE_RELATIVE_1" value="Sanity V5.tpr_1774529540011.e2a9a\results.xml"/>
+        <property name="_REPORT_FILE_RELATIVE_XML" value="Sanity V5.tpr_1774529540011.e2a9a\results.xml"/>
+        <property name="_REPORT_FILE_XML" value="C:\Users\amand\New Sanit\reports\Sanity V5.tpr_1774529540011.e2a9a\results.xml"/>
+        <property name="_REPORT_STATUS_IMAGE_NAME" value="currentstate.jpg"/>
+        <property name="_RGB" value="000000"/>
+        <property name="_RGB_X" value="0"/>
+        <property name="_RGB_Y" value="0"/>
+        <property name="_SCRIPT_DIR" value="C:\Users\amand\New Sanit\tpr"/>
+        <property name="_SEARCH_MATCH_COUNT" value="1"/>
+        <property name="_SEARCH_METHOD" value="search2"/>
+        <property name="_SEARCH_X" value="23"/>
+        <property name="_SEARCH_X_1" value="23"/>
+        <property name="_SEARCH_Y" value="148"/>
+        <property name="_SEARCH_Y_1" value="148"/>
+        <property name="_SEQNO" value="928410"/>
+        <property name="_STACK" value=""/>
+        <property name="_STEP_SUMMARY" value=""/>
+        <property name="_TEMPLATE_DIR" value="C:\Users\amand\New Sanit\templates"/>
+        <property name="_THREAD_NAME" value="Sanity V5.tpr"/>
+        <property name="_TIME" value="095220"/>
+        <property name="_TIMEOUT" value="false"/>
+        <property name="_TPR_LAST_COMMAND_1" value="Script Chat name=Chat"/>
+        <property name="_TPR_LAST_COMMAND_2" value="Run Script1.tpr"/>
+        <property name="_TPR_LAST_COMMAND_3" value="Script &quot;Avatar change&quot; action=end name=&quot;Avatar change&quot;"/>
+        <property name="_URL" value="java://localhost?screen=3"/>
+        <property name="_WARNING_COUNT" value="0"/>
+    </properties>
+</testsuite>
