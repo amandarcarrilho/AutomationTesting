@@ -6,3 +6,4 @@ Run "Change Region.tpr"
 Run "Announcement Board.tpr"
 Run "Mass teleport.tpr"
 Run "Basic Movements.tpr"
+Run Logout.tpr
