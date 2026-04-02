@@ -1,0 +1,10 @@
+Script "Input Limit" name="Input Limit"
+Browser find tagname=div text="Add Credits" elaction=click timeout=30s
+Wait 1s
+Mouse click to=x:682,y:339
+Press Ctrl+A
+Press BACKSPACE
+Type 99999999999999999999999
+Browser find class="text-4xl font-extrabold font-cairo px-1" tagname=span text=$99,990.00 elaction=click timeout=30s style="margin-top: -25px;"
+Click image template=image38.png
+Script "Input Limit" action=end name="Input Limit"

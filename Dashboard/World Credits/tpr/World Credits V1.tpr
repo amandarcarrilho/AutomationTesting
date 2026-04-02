@@ -1,0 +1,8 @@
+Run "World Credits Add Credit.tpr"
+Run "World Credits Limit.tpr"
+Run "Input 0 and letters.tpr"
+Run "Wrong CVV.tpr"
+Run "Input Limit.tpr"
+Run "Payment Information.tpr"
+Run "Billing History.tpr"
+Run "Add New Credit Panel.tpr"

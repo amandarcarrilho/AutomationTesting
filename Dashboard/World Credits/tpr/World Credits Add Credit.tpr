@@ -1,0 +1,26 @@
+Script "World Credits Add Credit" name="World Credits Add Credit"
+Browser find class="w-3 h-3 cursor-pointer" tagname=div elaction=click timeout=30s
+Browser find tagname=input elaction=click timeout=30s type=text placeholder="Enter Credit Purchase Limit"
+Press Ctrl+A
+Press BACKSPACE
+Type 50000
+Browser find class=button-red tagname=button elaction=click timeout=30s style="width: 12.5rem;"
+Click image template=image36.png
+Browser find text="Add Credits" elaction=click timeout=30s
+Mouse click to=x:647,y:337
+Press Ctrl+A
+Press BACKSPACE
+Browser find class="w-full h-10 px-5 rounded-xl" elaction=type eltext=1000 timeout=30s placeholder=0
+Click image template=image6.png
+Wait 2s
+Click image template=image7.png
+Click image template=image31.png
+Wait 5s
+Click image template=image32.png
+Browser find class="button-red w-95" tagname=button elaction=click timeout=30s
+Wait 3s
+Compareto image37.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Add Credit Error"
+}
+Script "World Credits Add Credit" action=end name="World Credits Add Credit"

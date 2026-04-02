@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="template.xsl"?><testsuite name="file:/C:/Users/amand/World%20Credits/tpr/Wrong%20CVV.tpr" tests="1" time="5.247">
+    <testcase index="1" name="Wrong CVV" number="4"/>
+    <properties>
+        <property name="XSL_CONFIG_ATTACH_SCRIPTS" value="true"/>
+        <property name="XSL_CONFIG_ATTACH_TEMPLATES" value="true"/>
+        <property name="XSL_CONFIG_CREATE_COMMENT_TABLE" value="false"/>
+        <property name="XSL_CONFIG_CREATE_COMPARISON_TABLE" value="false"/>
+        <property name="XSL_CONFIG_CREATE_WARNING_TABLE" value="true"/>
+        <property name="XSL_CONFIG_DISPLAY_FAILED_COMPARISONS_ONLY" value="false"/>
+        <property name="XSL_CONFIG_DISPLAY_WARNINGS" value="true"/>
+        <property name="XSL_CONFIG_INCLUDE_STEPS_IN_BODY" value="true"/>
+        <property name="XSL_END_TIME" value="1769519460249"/>
+        <property name="XSL_PARAM_DURATION_SECONDS" value="5"/>
+        <property name="XSL_PARAM_DURATION_STRING" value="2026-01-27 10:10 - 2026-01-27 10:11 (5 seconds)"/>
+        <property name="XSL_PARAM_LOG_FILE" value="log.html"/>
+        <property name="XSL_PARAM_STATUS" value="3"/>
+        <property name="XSL_START_TIME" value="1769519454937"/>
+        <property name="_BROWSER_WINDOW_COUNT" value="1"/>
+        <property name="_BROWSER_WINDOW_ID" value="B24919BF8853CF477403F1EA7DAD8F8C"/>
+        <property name="_BROWSER_WINDOW_ID1" value="B24919BF8853CF477403F1EA7DAD8F8C"/>
+        <property name="_BROWSER_WINDOW_NUMBER" value="1"/>
+        <property name="_BROWSER_WINDOW_TITLE" value="Curator Administrator"/>
+        <property name="_BROWSER_WINDOW_TITLE1" value="Curator Administrator"/>
+        <property name="_BROWSER_WINDOW_URL" value="https://curator.qa-sine.space/grid/worldcredits?grid=1001261"/>
+        <property name="_CAPSLOCK_ON" value="false"/>
+        <property name="_COMPARETO_PASS_RATE" value="100.0"/>
+        <property name="_COMPARETO_RESULT" value="100.0"/>
+        <property name="_COMPARETO_TEMPLATE_INDEX" value="0"/>
+        <property name="_COMPARETO_TIME_IN_MS" value="198"/>
+        <property name="_CURDATE" value="2026 Jan 27 10:10:54"/>
+        <property name="_CURDATE_FORMAT" value=""/>
+        <property name="_CURRENT_FILE" value=""/>
+        <property name="_CURRENT_FILENAME" value=""/>
+        <property name="_CURTIME" value="1769519454939"/>
+        <property name="_DATE" value="20260127"/>
+        <property name="_DESKTOP_HEIGHT" value="1080"/>
+        <property name="_DESKTOP_WIDTH" value="1920"/>
+        <property name="_DISPLAY_COUNT" value="1"/>
+        <property name="_DISPLAY_H_1" value="1080"/>
+        <property name="_DISPLAY_W_1" value="1920"/>
+        <property name="_DISPLAY_X_1" value="0"/>
+        <property name="_DISPLAY_Y_1" value="0"/>
+        <property name="_ENV_=::" value="::\"/>
+        <property name="_ENV_ALLUSERSPROFILE" value="C:\ProgramData"/>
+        <property name="_ENV_AMDRMSDKPATH" value="C:\Program Files\AMD\RyzenMasterSDK\"/>
+        <property name="_ENV_APPDATA" value="C:\Users\amand\AppData\Roaming"/>
+        <property name="_ENV_COMPUTERNAME" value="AMANDA"/>
+        <property name="_ENV_ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+        <property name="_ENV_CommonProgramFiles" value="C:\Program Files\Common Files"/>
+        <property name="_ENV_CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+        <property name="_ENV_CommonProgramW6432" value="C:\Program Files\Common Files"/>
+        <property name="_ENV_DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+        <property name="_ENV_EFC_4004_1262719628" value="1"/>
+        <property name="_ENV_EFC_4004_1592913036" value="1"/>
+        <property name="_ENV_EFC_4004_2283032206" value="1"/>
+        <property name="_ENV_EFC_4004_2775293581" value="1"/>
+        <property name="_ENV_EFC_4004_3789132940" value="1"/>
+        <property name="_ENV_FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+        <property name="_ENV_FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+        <property name="_ENV_HOMEDRIVE" value="C:"/>
+        <property name="_ENV_HOMEPATH" value="\Users\amand"/>
+        <property name="_ENV_LOCALAPPDATA" value="C:\Users\amand\AppData\Local"/>
+        <property name="_ENV_LOGONSERVER" value="\\AMANDA"/>
+        <property name="_ENV_NUMBER_OF_PROCESSORS" value="12"/>
+        <property name="_ENV_OS" value="Windows_NT"/>
+        <property name="_ENV_OneDrive" value="C:\Users\amand\OneDrive"/>
+        <property name="_ENV_PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+        <property name="_ENV_PROCESSOR_ARCHITECTURE" value="AMD64"/>
+        <property name="_ENV_PROCESSOR_IDENTIFIER" value="AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD"/>
+        <property name="_ENV_PROCESSOR_LEVEL" value="25"/>
+        <property name="_ENV_PROCESSOR_REVISION" value="2102"/>
+        <property name="_ENV_PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+        <property name="_ENV_PUBLIC" value="C:\Users\Public"/>
+        <property name="_ENV_Path" value="C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Users\amand\AppData\Local\Microsoft\WindowsApps;;D:\Jogos\app"/>
+        <property name="_ENV_ProgramData" value="C:\ProgramData"/>
+        <property name="_ENV_ProgramFiles" value="C:\Program Files"/>
+        <property name="_ENV_ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+        <property name="_ENV_ProgramW6432" value="C:\Program Files"/>
+        <property name="_ENV_SESSIONNAME" value="Console"/>
+        <property name="_ENV_SystemDrive" value="C:"/>
+        <property name="_ENV_SystemRoot" value="C:\WINDOWS"/>
+        <property name="_ENV_TEMP" value="C:\Users\amand\AppData\Local\Temp"/>
+        <property name="_ENV_TMP" value="C:\Users\amand\AppData\Local\Temp"/>
+        <property name="_ENV_USERDOMAIN" value="AMANDA"/>
+        <property name="_ENV_USERDOMAIN_ROAMINGPROFILE" value="AMANDA"/>
+        <property name="_ENV_USERNAME" value="amand"/>
+        <property name="_ENV_USERPROFILE" value="C:\Users\amand"/>
+        <property name="_ENV_windir" value="C:\WINDOWS"/>
+        <property name="_EXECUTION_SPEED_FACTOR" value="1.0"/>
+        <property name="_EXIT_CMP_LINE" value="7"/>
+        <property name="_EXIT_CMP_NAME" value="browser"/>
+        <property name="_EXIT_CMP_PARAMS" value="Browser find class=&quot;w-1/2 h-44 flex items-center justify-center border rounded-lg mr-7 cursor-pointer relative&quot; elaction=click timeout=30s style=&quot;border-color: rgb(213, 212, 215); background-color: rgb(255, 255, 255);&quot;"/>
+        <property name="_EXIT_CMP_SCRIPT" value="Wrong CVV.tpr"/>
+        <property name="_EXIT_CODE" value="1"/>
+        <property name="_EXIT_DESC" value="Action &quot;browser click&quot; failed with an error: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;w-1/2 h-44 flex items-center justify-center border rounded-lg mr-7 cursor-pointer relative&quot; style=&quot;border-color: rgb(213, 212, 215); background-color: rgb(255, 255, 255);&quot;&gt;...&lt;/div&gt; is not clickable at point (698, 540). Other element would receive the click: &lt;div class=&quot;modal-background&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=144.0.7559.97)&#10;Build info: version: '4.15.0', revision: '1d14b5521b'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [0bf3adb3352063e0c40ae4a1b551e88d, clickElement {id=f.B24919BF8853CF477403F1EA7DAD8F8C.d.E07537B6A635069275C81FB6DFFCA871.e.671}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\amand\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49160}, goog:processID: 10640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49160/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (0bf3adb3352063e0c40ae4a1b551e88d)] -&gt; xpath: //*[@style='border-color: rgb(213, 212, 215); background-color: rgb(255, 255, 255);' and @class='w-1/2 h-44 flex items-center justify-center border rounded-lg mr-7 cursor-pointer relative']]&#10;Session ID: 0bf3adb3352063e0c40ae4a1b551e88d"/>
+        <property name="_EXIT_FILE" value="Wrong CVV.tpr"/>
+        <property name="_EXIT_LINE" value="7"/>
+        <property name="_EXIT_SCREENSHOT" value="exitState.png"/>
+        <property name="_FILE" value="C:\Users\amand\World Credits\tpr\Wrong CVV.tpr"/>
+        <property name="_FILENAME" value="Wrong CVV.tpr"/>
+        <property name="_FPS" value=";"/>
+        <property name="_FS" value="\"/>
+        <property name="_INSTALL_DIR" value="D:\Jogos\app"/>
+        <property name="_JAVA_VENDOR" value="Oracle Corporation"/>
+        <property name="_JAVA_VERSION" value="25.0.1"/>
+        <property name="_LAST_CMP_COMMAND" value="Browser find class=&quot;w-1/2 h-44 flex items-center justify-center border rounded-lg mr-7 cursor-pointer relative&quot; elaction=click timeout=30s style=&quot;border-color: rgb(213, 212, 215); background-color: rgb(255, 255, 255);&quot;"/>
+        <property name="_LOG_SEVERE_COUNT" value="0"/>
+        <property name="_LOG_WARNING_COUNT" value="0"/>
+        <property name="_MACHINE" value="localhost"/>
+        <property name="_MOUSE_X" value="1106"/>
+        <property name="_MOUSE_Y" value="786"/>
+        <property name="_NUMLOCK_ON" value="true"/>
+        <property name="_OS_ARCH" value="amd64"/>
+        <property name="_OS_NAME" value="Windows 11"/>
+        <property name="_OS_VERSION" value="Windows 11"/>
+        <property name="_PORT" value=""/>
+        <property name="_PRODUCT_HOME_PAGE" value="http://www.t-plan.com/robot"/>
+        <property name="_PRODUCT_INSTALL_DIR" value="D:\Jogos\app"/>
+        <property name="_PRODUCT_NAME" value="T-Plan Robot Enterprise"/>
+        <property name="_PRODUCT_VERSION_LONG" value="8.2.1-20251222.1"/>
+        <property name="_PRODUCT_VERSION_SHORT" value="8.2.1"/>
+        <property name="_PROJECT_DIR" value="C:\Users\amand\World Credits"/>
+        <property name="_PROJECT_REPORT_DIR" value="C:\Users\amand\World Credits\reports"/>
+        <property name="_PROJECT_REPORT_UNIQUE_DIR" value="C:\Users\amand\World Credits\reports\Wrong CVV.tpr_1769519454937.79c74"/>
+        <property name="_PROJECT_TEMPLATE_DIR" value="C:\Users\amand\World Credits\templates"/>
+        <property name="_PROTOCOL" value=""/>
+        <property name="_RANDOM" value="40391"/>
+        <property name="_RANDOM_MAX" value="100000"/>
+        <property name="_RANDOM_MIN" value="0"/>
+        <property name="_REPORT_DIR" value="C:\Users\amand\World Credits\reports\Wrong CVV.tpr_1769519454937.79c74"/>
+        <property name="_REPORT_FILE" value="C:\Users\amand\World Credits\reports\Wrong CVV.tpr_1769519454937.79c74\results.xml"/>
+        <property name="_REPORT_FILENAME" value="results.xml"/>
+        <property name="_REPORT_FILENAME_1" value="results.xml"/>
+        <property name="_REPORT_FILENAME_XML" value="results.xml"/>
+        <property name="_REPORT_FILE_1" value="C:\Users\amand\World Credits\reports\Wrong CVV.tpr_1769519454937.79c74\results.xml"/>
+        <property name="_REPORT_FILE_RELATIVE" value="Wrong CVV.tpr_1769519454937.79c74\results.xml"/>
+        <property name="_REPORT_FILE_RELATIVE_1" value="Wrong CVV.tpr_1769519454937.79c74\results.xml"/>
+        <property name="_REPORT_FILE_RELATIVE_XML" value="Wrong CVV.tpr_1769519454937.79c74\results.xml"/>
+        <property name="_REPORT_FILE_XML" value="C:\Users\amand\World Credits\reports\Wrong CVV.tpr_1769519454937.79c74\results.xml"/>
+        <property name="_REPORT_STATUS_IMAGE_NAME" value="currentstate.jpg"/>
+        <property name="_RGB" value="000000"/>
+        <property name="_RGB_X" value="0"/>
+        <property name="_RGB_Y" value="0"/>
+        <property name="_SCRIPT_DIR" value="C:\Users\amand\World Credits\tpr"/>
+        <property name="_SEARCH_MATCH_COUNT" value="1"/>
+        <property name="_SEARCH_METHOD" value="enhanced"/>
+        <property name="_SEARCH_X" value="517"/>
+        <property name="_SEARCH_X_1" value="517"/>
+        <property name="_SEARCH_Y" value="81"/>
+        <property name="_SEARCH_Y_1" value="81"/>
+        <property name="_SEQNO" value="498804"/>
+        <property name="_SERVER_CLIPBOARD_CONTENT" value="Browser find tagname=div text=&quot;+ Add a new card&quot; elaction=click timeout=30s"/>
+        <property name="_SERVER_CLIPBOARD_CONTENT_TEXT" value="Browser find tagname=div text=&quot;+ Add a new card&quot; elaction=click timeout=30s"/>
+        <property name="_STACK" value=""/>
+        <property name="_STEP_SUMMARY" value=""/>
+        <property name="_TEMPLATE_DIR" value="C:\Users\amand\World Credits\templates"/>
+        <property name="_THREAD_NAME" value="Wrong CVV.tpr"/>
+        <property name="_TIME" value="101054"/>
+        <property name="_TIMEOUT" value="false"/>
+        <property name="_TPR_LAST_COMMAND_1" value="Browser find class=&quot;w-1/2 h-44 flex items-center justify-center border rounded-lg mr-7 cursor-pointer relative&quot; elaction=click timeout=30s style=&quot;border-color: rgb(213, 212, 215); background-color: rgb(255, 255, 255);&quot;"/>
+        <property name="_TPR_LAST_COMMAND_2" value="Click image template=image15.png"/>
+        <property name="_TPR_LAST_COMMAND_3" value="Browser find class=&quot;w-full h-10 px-5 rounded-xl&quot; elaction=type eltext=1000 timeout=30s placeholder=0"/>
+        <property name="_URL" value="java://localhost?screen=2"/>
+        <property name="_WARNING_COUNT" value="0"/>
+        <property name="_WEB_CLASS" value="w-1/2 h-44 flex items-center justify-center border rounded-lg mr-7 cursor-pointer relative"/>
+        <property name="_WEB_CLASS_1" value="w-1/2 h-44 flex items-center justify-center border rounded-lg mr-7 cursor-pointer relative"/>
+        <property name="_WEB_COUNT" value="1"/>
+        <property name="_WEB_H" value="176"/>
+        <property name="_WEB_H_1" value="176"/>
+        <property name="_WEB_STYLE" value="border-color: rgb(213, 212, 215); background-color: rgb(255, 255, 255);"/>
+        <property name="_WEB_STYLE_1" value="border-color: rgb(213, 212, 215); background-color: rgb(255, 255, 255);"/>
+        <property name="_WEB_TEXT" value="+ Add a new card"/>
+        <property name="_WEB_TEXT_1" value="+ Add a new card"/>
+        <property name="_WEB_W" value="259"/>
+        <property name="_WEB_W_1" value="259"/>
+        <property name="_WEB_X" value="576"/>
+        <property name="_WEB_X_1" value="569"/>
+        <property name="_WEB_Y" value="449"/>
+        <property name="_WEB_Y_1" value="451"/>
+    </properties>
+    <result>
+        <code>1</code>
+        <desc>Action "browser click" failed with an error: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class="w-1/2 h-44 flex items-center justify-center border rounded-lg mr-7 cursor-pointer relative" style="border-color: rgb(213, 212, 215); background-color: rgb(255, 255, 255);"&gt;...&lt;/div&gt; is not clickable at point (698, 540). Other element would receive the click: &lt;div class="modal-background"&gt;&lt;/div&gt;
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bf3adb3352063e0c40ae4a1b551e88d, clickElement {id=f.B24919BF8853CF477403F1EA7DAD8F8C.d.E07537B6A635069275C81FB6DFFCA871.e.671}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\amand\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49160}, goog:processID: 10640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49160/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0bf3adb3352063e0c40ae4a1b551e88d)] -&gt; xpath: //*[@style='border-color: rgb(213, 212, 215); background-color: rgb(255, 255, 255);' and @class='w-1/2 h-44 flex items-center justify-center border rounded-lg mr-7 cursor-pointer relative']]
+Session ID: 0bf3adb3352063e0c40ae4a1b551e88d</desc>
+        <script>Wrong CVV.tpr</script>
+        <line>7</line>
+        <exitscreen link="exitState.png">exitState.png</exitscreen>
+        <failed cname="BROWSER" command="Browser find class=&quot;w-1/2 h-44 flex items-center justify-center border rounded-lg mr-7 cursor-pointer relative&quot; elaction=click timeout=30s style=&quot;border-color: rgb(213, 212, 215); background-color: rgb(255, 255, 255);&quot;" script="Wrong CVV.tpr" line="7"/>
+        <stack>
+            <location relpath="tpr\Wrong CVV.tpr" path="C:\Users\amand\World Credits\tpr\Wrong CVV.tpr" line="7" command="Browser find class=&quot;w-1/2 h-44 flex items-center justify-center border rounded-lg mr-7 cursor-pointer relative&quot; elaction=click timeout=30s style=&quot;border-color: rgb(213, 212, 215); background-color: rgb(255, 255, 255);&quot;"/>
+        </stack>
+    </result>
+</testsuite>
