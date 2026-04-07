@@ -1,4 +1,3 @@
-Report "results.xml"
 Run Login.tpr
 Run Analytics.tpr
 Run "Your Apps.tpr"
