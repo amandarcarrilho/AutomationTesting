@@ -1,0 +1,44 @@
+Report "results.xml"
+Browser open url=https://curator.qa-sine.space browser=chrome target=window args=
+Wait 5s
+Browser find xpath="//span[contains(text(),'Change My World Stream Server Type')]" elaction=click timeout=30s
+Browser find xpath="//*[contains(text(),'SELECT YOUR WORLD STREAM SERVER TYPE')]" timeout=10s
+Browser find xpath="//*[contains(text(),'Ultra Server')]" timeout=10s
+Browser find xpath="//*[contains(text(),'Lite Server')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Ultra Server')]]//*[contains(text(),'249')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Ultra Server')]]//*[contains(text(),'Credits per user per 60 minutes')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Ultra Server')]]//*[contains(text(),'Our most powerful server')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Ultra Server')]]//*[contains(text(),'Highest performance')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Ultra Server')]]//*[contains(text(),'Recommended for high user concurrency')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Ultra Server')]]//*[contains(text(),'US & EU')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Lite Server')]]//*[contains(text(),'40')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Lite Server')]]//*[contains(text(),'Credits per user per 15 minutes')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Lite Server')]]//*[contains(text(),'Economical server')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Lite Server')]]//*[contains(text(),'Average performance')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Lite Server')]]//*[contains(text(),'Supports fewer concurrent users')]" timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Lite Server')]]//*[contains(text(),'US Only')]" timeout=10s
+Browser find xpath="//button[@aria-label='Close']" elaction=click timeout=10s
+Browser find xpath="//*[contains(text(),'World Stream')]" timeout=10s
+Browser find xpath="//*[contains(text(),'ADD CREDITS')]" elaction=click timeout=10s
+Browser find xpath="//*[contains(text(),'Enter Your Amount')]" timeout=10s
+Browser find xpath=//div[.//*[contains(text(),'Credits')]]//input elaction=click timeout=10s
+Browser find xpath=//div[.//*[contains(text(),'Credits')]]//input elaction=type eltext=1000 timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Enter Your Amount')]]//button[contains(text(),'next')]" elaction=click timeout=10s
+Browser find xpath=//div[.//*[contains(text(),'Address')]]//button[contains(text(),'Confirm')] elaction=click timeout=10s
+Browser find xpath="//*[contains(text(),'Your World Stream Server Type')]" timeout=10s
+Browser find xpath="//*[contains(text(),'ADD CREDITS')]" elaction=click timeout=10s
+Browser find xpath="//*[contains(text(),'Enter Your Amount')]" timeout=10s
+Browser find xpath=//div[.//*[contains(text(),'Credits')]]//input elaction=type eltext=1000 timeout=10s
+Browser find xpath="//div[.//*[contains(text(),'Enter Your Amount')]]//button[contains(text(),'next')]" timeout=10s
+Browser find xpath=//div[.//*[contains(text(),'Address')]]//button[contains(text(),'Back')] elaction=click timeout=10s
+Browser find xpath="//*[contains(text(),'Enter Your Amount')]" timeout=10s
+// Add new credit panel
+Browser find xpath="//*[contains(text(),'ADD CREDITS')]" elaction=click timeout=10s
+Browser find xpath="//*[contains(text(),'Enter Your Amount')]" timeout=10s
+Browser find xpath=" //div[.//*[contains(text(),'Credits')]]//input" elaction=type eltext=1000 timeout=30s
+Browser find xpath=" //div[.//*[contains(text(),'Enter Your Amount')]]//button[contains(text(),'next')]" elaction=click timeout=10s
+Browser find xpath="//*[contains(text(),'Payment') or contains(text(),'Address')]" timeout=10s
+Browser find xpath=" //button[contains(text(),'Confirm')]" elaction=click timeout=10s
+Browser find xpath="//*[contains(text(),'World Stream') or contains(text(),'success')]" timeout=10s
+// Purchasing Credits for fleet 9
+// Manage World Stream Usage > Default State

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><tprproject>
+    <date>24-03-26 10:38</date>
+    <uid>p19d2011299b</uid>
+    <editor>C:\Users\laila\Desktop\Freela\Freela - Cspsogg\T-plan\SineSpace automation\SineSpace Automation\tpr\ServerType.tpr</editor>
+    <ver>1</ver>
+    <workitems/>
+    <offset>54</offset>
+    <paths>
+        <reports>reports</reports>
+        <templates>templates</templates>
+        <schedules>schedules</schedules>
+        <stype1>tpr</stype1>
+        <stype2>src</stype2>
+        <sotype2>classes</sotype2>
+    </paths>
+    <tver>8.2-20251202.1</tver>
+    <lastmod>07-04-26 15:20</lastmod>
+    <editors>tpr\ServerType.tpr</editors>
+    <topoffset>0</topoffset>
+</tprproject>
