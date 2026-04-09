@@ -1,0 +1,18 @@
+Script "Dashboard Avatar" name="Dashboard Avatar"
+Click image template=image50.png
+Click image template=comp0326-1
+Click image template="comp0326-2;Captura de tela 2026-03-26 152434.png"
+Wait 5s
+Compareto "Captura de tela 2026-03-26 2.png" method=search2
+if ({_EXIT_CODE} == 0) {
+    Click image template="Captura de tela 2026-03-26 4.png"
+    Browser find id=SaveGridInfoBtn class=button-red tagname=button text="SAVE CHANGES" elaction=click timeout=30s
+    Wait 3s
+    Click image template="Captura de tela 2026-03-26 5.png"
+    Browser find id=SaveGridInfoBtn class=button-red tagname=button text="SAVE CHANGES" elaction=click timeout=30s
+    Compareto "Captura de tela 2026-03-26 3.png" method=search2
+}
+if ({_EXIT_CODE} != 0) {
+    Warning "World Customization Select Avatar Error"
+}
+Script "Dashboard Avatar" action=end name="Dashboard Avatar"

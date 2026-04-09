@@ -1,0 +1,9 @@
+Script "World Customization" name="World Customization"
+Run "Name and Basic Information.tpr"
+Run "Basic Info EULA.tpr"
+Run Features.tpr
+Run Regions.tpr
+Run Avatar.tpr
+Run "Color Themes 2.tpr"
+Run "World Access.tpr"
+Script "World Customization" action=end name="World Customization"

@@ -1,0 +1,8 @@
+Script "Dashboard-Your Apps" name="Dashboard-Your Apps"
+Click image template=analyticsdashboard2.png
+Compareto dashboard-yourapps.png method=search2
+Click image template=dashboard.png
+Click image template=dashboard-yourappsapple.png
+Compareto dashboard-yourapps.png method=search2
+Click image template=dashboard.png
+Script "Dashboard-Your Apps" action=end name="Dashboard-Your Apps"

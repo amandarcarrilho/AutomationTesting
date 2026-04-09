@@ -1,0 +1,14 @@
+Script "Analytics Dashboard" name="Analytics Dashboard"
+Browser find class="font-sans text-sm font-semibold text-green-4A inline-block cursor-pointer mr-4" tagname=a elaction=click timeout=30s href="/grid/analytics?grid=1001261"
+Wait 1s
+Browser find class="font-sans text-sm font-semibold text-green-4A" tagname=div elaction=click timeout=30s
+Wait 1s
+Click image template=dashboard.png
+Wait 2s
+Browser find class="font-sans text-sm font-semibold text-green-4A inline-block cursor-pointer" tagname=a elaction=click timeout=30s href="/grid/analytics?grid=1001261"
+Wait 2s
+Click image template=contactusdashboardanalytics.png
+Wait 1s
+Click image template=support.png
+Click image template=dashboard.png
+Script "Analytics Dashboard" action=end name="Analytics Dashboard"

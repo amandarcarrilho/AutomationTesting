@@ -1,0 +1,10 @@
+Script Dashboard-DashboardV1 name=Dashboard-DashboardV1
+Run Login.tpr
+Run "Analytics Dashboard.tpr"
+Run Dashboard-YourApps.tpr
+Run Dashboard-WorldCredits.tpr
+Run Dashboard-Billing.tpr
+Run Dashboard-Branding.tpr
+Run Dashboard-WorldCustomization.tpr
+Run Dashboard-ManageUsers.tpr
+Script Dashboard-DashboardV1 action=end name=Dashboard-DashboardV1

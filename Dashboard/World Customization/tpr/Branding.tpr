@@ -1,0 +1,12 @@
+Script Branding name=Branding
+Mouse click to=x:1915,y:1057 count=2
+Click image template="Captura de tela 2026-03-26 121.png"
+Click image template="Captura de tela 2026-03-26 122.png"
+Click image template="Captura de tela 2026-03-26 123.png"
+Click image template="Captura de tela 2026-03-26 124.png"
+Click image template="Captura de tela 2026-03-26 125.png"
+Click image template="Captura de tela 2026-03-26 126.png"
+if ({_EXIT_CODE} != 0) {
+    Warning "World Customization Branding Error"
+}
+Script Branding name=Branding
