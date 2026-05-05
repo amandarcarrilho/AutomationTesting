@@ -1,0 +1,41 @@
+Script "Name and Basic Information" name="Name and Basic Information"
+Wait 2s
+Click image template=image2.png
+Compareto image3.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "World Customization Page Error"
+}
+//Name Change
+Browser find tagname=input elaction=clear timeout=30s maxlength=48
+Browser find tagname=input elaction=type eltext="Automation Tester World" timeout=30s maxlength=48
+Browser find class=button-red tagname=button text="SAVE CHANGES" elaction=click timeout=30s
+Compareto "Captura de tela 2026-03-26 118.png" method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "World Customization Name Error"
+}
+Wait 3s
+Browser find tagname=input elaction=click timeout=30s placeholder="Enter World Name"
+Press Ctrl+A
+Press BACKSPACE
+Type 1234
+Compareto image6.png method=search2
+if ({_EXIT_CODE} == 0) {
+    Browser find tagname=input elaction=clear timeout=30s type=text style="color: rgb(64, 64, 64); border: 1px solid rgb(98, 98, 98);"
+    Browser find tagname=input elaction=type eltext="Auto Tester World " timeout=30s type=text style="color: rgb(64, 64, 64); border: 1px solid rgb(98, 98, 98);"
+    Browser find class=button-red tagname=button text="SAVE CHANGES" elaction=click timeout=30s
+}
+//Description Change
+Browser find tagname=textarea elaction=clear timeout=30s style="color: rgb(64, 64, 64); border: 1px solid rgb(98, 98, 98);" placeholder="Enter World Description"
+Type "Automation Testing"
+Browser find class=button-red tagname=button text="SAVE CHANGES" elaction=click timeout=30s
+Browser find tagname=textarea elaction=clear timeout=30s style="color: rgb(64, 64, 64); border: 1px solid rgb(98, 98, 98);" placeholder="Enter World Description"
+Type 00
+Browser find class=button-red tagname=button text="SAVE CHANGES" elaction=click timeout=30s
+Browser find tagname=textarea elaction=clear timeout=30s style="color: rgb(64, 64, 64); border: 1px solid rgb(98, 98, 98);" placeholder="Enter World Description"
+Type Test
+Browser find class=button-red tagname=button text="SAVE CHANGES" elaction=click timeout=30s
+Compareto "Captura de tela 2026-03-26 119.png" method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "World Customization Description Error"
+}
+Script "Name and Basic Information" action=end name="Name and Basic Information"

@@ -1,0 +1,14 @@
+Script "World Credits V1.1" name="World Credits V1.1"
+Run "World Credits Add Credit.tpr"
+Run "World Credits Limit.tpr"
+Run "Input 0 and letters.tpr"
+Run "Wrong CVV.tpr"
+Run "Input Limit.tpr"
+Run "Payment Information.tpr"
+Run "Billing History.tpr"
+Run "Add New Credit Panel.tpr"
+if ({_EXIT_CODE} != 0) {
+    Warning "World Credits FAIL"
+}
+
+Script "World Credits V1.1" action=end name="World Credits V1.1"

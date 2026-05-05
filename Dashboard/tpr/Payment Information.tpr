@@ -1,0 +1,10 @@
+Script "Payment Information" name="Payment Information"
+Browser find text="Add Credits" elaction=click timeout=30s
+Wait 3s
+Mouse click to=x:1092,y:841
+Wait 3s
+Compareto wc30.png method=search2
+Click image template=wc31.png
+Wait 3s
+Click image template=wc32.png
+Script "Payment Information" action=end name="Payment Information"

@@ -1,0 +1,9 @@
+Script "Login Dashboard" name="Login Dashboard"
+Browser open url="https://curator.qa-sine.space/grid/dashboard?grid=1001261" browser=chrome target=tab args=
+Press F11
+Browser find tagname=input elaction=type eltext=automationtesterswe@gmail.com timeout=30s name=Username
+Browser find tagname=input elaction=type eltext=Testing1234 timeout=30s name=Password
+Wait 5s
+Browser find class=w-full elaction=select eltext="Auto Tester World" timeout=30s style="outline: none;"
+Browser find id=LoginBtn text=CONTINUE elaction=click timeout=30s
+Script "Login Dashboard" action=end name="Login Dashboard"

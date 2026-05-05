@@ -1,0 +1,50 @@
+Script "Grid View-List View" name="Grid View-List View"
+Press F5
+Wait 2s
+Click image template=lms65.png
+Wait 2s
+//List view Create
+Compareto lms36.png method=search2
+Browser find class="button-red-square button-withicon gap-2" tagname=button elaction=click timeout=30s
+Browser find tagname=input elaction=click timeout=30s type=text placeholder="Enter a name for this course"
+Type Testing2
+Browser find tagname=textarea elaction=click timeout=30s style="min-height: 83px;" placeholder="Enter a description for this course"
+Type Testing2
+Browser find tagname=div elaction=click timeout=30s style="color: rgb(74, 140, 183);"
+Browser find tagname=img elaction=click timeout=30s src=/static/solidColor6.png alt= style="border-radius: 16px;"
+Click image template=lms40.png
+Click image template=lms999992.png
+Wait 2s
+Click image template=lms999.png
+Wait 3s
+Click image template=lms41.png
+Compareto lms42.png method=search2
+Click image template=lms999.png
+Wait 2s
+Click image template=lms68.png
+Compareto lms44.png method=search2
+Click image template=lms999.png
+Click image template=lms67.png
+Click image template=lms9991.png
+Click image template=lms69.png
+Click image template=lms47.png
+Compareto lms66.png method=search2
+//Archive End
+Wait 1s
+Click image template=lms70.png
+Browser find tagname=textarea elaction=click timeout=30s style="min-height: 95px;" placeholder="Enter your note here..."
+Type Testing
+Click image template=lms998.png
+Click image template=lmsadd.png
+Wait 1s
+Click image template=lms72.png
+Click image template=lms54.png
+Browser find tagname=textarea elaction=click timeout=30s style="min-height: 95px;" placeholder="Enter your note here..."
+Press Ctrl+A
+Press BACKSPACE
+Press ENTER
+Compareto lms58.png method=search2
+Wait 3s
+Click image template=lms998.png
+Wait 3s
+Script "Grid View-List View" action=end name="Grid View-List View"

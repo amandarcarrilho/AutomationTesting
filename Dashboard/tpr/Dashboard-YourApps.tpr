@@ -1,0 +1,11 @@
+Script "Dashboard-Your Apps" name="Dashboard-Your Apps"
+Click image template=windows.png
+Compareto dashboard-yourapps.png method=search2
+Click image template=dashboard.png
+Wait 3s
+Click image template=mac.png
+Wait 3s
+Compareto dashboard-yourapps.png method=search2
+Wait 3s
+Click image template=dashboard.png
+Script "Dashboard-Your Apps" action=end name="Dashboard-Your Apps"

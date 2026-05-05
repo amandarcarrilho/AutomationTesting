@@ -1,0 +1,20 @@
+Script "Analytics V1" name="Analytics V1"
+Click image template=ana1.png
+Browser find class="button-red mr-8" tagname=button elaction=click timeout=30s
+Compareto ana2.png method=search2
+Click image template=ana3.png
+Wait 3s
+Compareto ana4.png method=search2
+Click image template=ana5.png
+Browser find class=button-red tagname=button elaction=click timeout=30s
+Compareto ana6.png method=search2
+Click image template=ana7.png
+Wait 2s
+Compareto ana8.png method=search2
+Click image template=ana1.png
+Browser find class=button-red tagname=button elaction=click timeout=30s
+Click image template=ana9.png
+if ({_EXIT_CODE} != 0) {
+    Warning "Analytics FAIL"
+}
+Script "Analytics V1" name="Analytics V1"

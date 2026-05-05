@@ -1,0 +1,6 @@
+Run Steps.tpr
+Run "Application URL.tpr"
+Run "API Page.tpr"
+if ({_EXIT_CODE} != 0) {
+    Warning "Integration FAIL"
+}

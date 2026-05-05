@@ -1,0 +1,58 @@
+Script "API Page" name="API Page"
+Click image template=ws81.png
+Browser find tagname=input elaction=click timeout=30s placeholder=https://your-lrs.example.com/xapi
+Type Test
+Press ENTER
+Browser find tagname=input elaction=click timeout=30s placeholder="Enter client key"
+Type Test
+Browser find tagname=input elaction=click timeout=30s type=password placeholder="Enter client secret"
+Type Test
+Click image template=ws82.png
+Browser find class="button-red-square w-70 mr-4" tagname=button elaction=click timeout=30s
+Compareto WS89.png method=search2
+Click image template=WS90.png
+Browser find tagname=input elaction=click timeout=30s placeholder=https://your-lrs.example.com/xapi
+Press Ctrl+A
+Press BACKSPACE
+Browser find tagname=input elaction=click timeout=30s placeholder="Enter client key"
+Press Ctrl+A
+Press BACKSPACE
+Browser find tagname=input elaction=click timeout=30s placeholder="Enter client secret"
+Press Ctrl+A
+Press BACKSPACE
+Browser find class="button-red-square w-70 mr-4" tagname=button elaction=click timeout=30s
+Moveto image template=ws83.png
+Compareto ws84.png method=search2
+Moveto image template=ws87.png
+Compareto ws85.png method=search2
+Moveto image template=ws88.png
+Compareto ws86.png method=search2
+
+if ({_EXIT_CODE} != 0) {
+    Warning "API Page Error"
+}
+//LMS Events
+Mouse click to=x:1913,y:1057
+Click image template=ws91.png
+Click image template=ws92.png
+Click image template=ws93.png
+Click image template=ws94.png
+Click image template=ws95.png
+Click image template=ws96.png
+Click image template=ws97.png
+Click image template=ws98.png
+Browser find class="button-red-square w-70" tagname=button elaction=click timeout=30s
+Compareto ws99.png method=search2
+Compareto ws109.png method=search2
+Click image template=ws100.png
+Click image template=ws101.png
+Click image template=ws102.png
+Click image template=ws103.png
+Click image template=ws104.png
+Click image template=ws105.png
+Click image template=ws106.png
+Click image template=ws110.png
+Browser find class="button-red-square w-70" tagname=button elaction=click timeout=30s
+Compareto ws99.png method=search2
+Click image template=ws108.png
+Script "API Page" action=end name="API Page"

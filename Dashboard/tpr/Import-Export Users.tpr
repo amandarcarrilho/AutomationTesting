@@ -1,0 +1,16 @@
+Script "Import User" name="Import User"
+Wait 2s
+Click image template='''''''36.png
+Wait 1s
+Compareto '''''''37.png method=search2
+Wait 3s
+if ({_EXIT_CODE} == 0) {
+    Browser find class="ml-2 mt-1 font-sans text-lg font-normal text-black" tagname=div elaction=click timeout=30s
+    Click image template='''''''43.png
+}
+if ({_EXIT_CODE} != 0) {
+    Warning "Manage Users Import Users Error"
+}
+Click image template='''''''41.png
+Browser find id=ExportUsersBtn tagname=div elaction=click timeout=30s
+Script "Import User" action=end name="Import User"

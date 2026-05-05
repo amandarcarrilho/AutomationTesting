@@ -1,0 +1,30 @@
+Script "Your Apps" name="Your Apps"
+Click image template=bil10.png
+Mouse click to=x:768,y:751
+Wait 4s
+Browser switch url=https://qa-sine.space/worldstream/embed/GUyRUjnDgOeUwEoK continue=false
+Compareto ya1.png method=search2
+Browser switch url="https://curator.qa-sine.space/grid/apps?grid=1001261" continue=false
+Click image template=ya2.png
+Wait 3s
+Mouse click to=x:976,y:792
+Wait 3s
+Browser switch url=https://docs.breakroom.tech/opening-the-doors/world-stream/purchasing-and-managing-world-credits continue=false
+Wait 3s
+Compareto ya4.png method=search2
+Browser switch url="https://curator.qa-sine.space/grid/apps?grid=1001261" continue=false
+Mouse click to=x:1914,y:1063 count=6
+Click image template=ya5.png
+Wait 3s
+Click image template=ya6.png
+Browser switch url=https://docs.breakroom.tech/advanced-tutorials/uploading-your-own-region/installing-unity-and-the-breakroom-sdk continue=false
+Compareto ya7.png method=search2
+Browser switch url="https://curator.qa-sine.space/grid/apps?grid=1001261" continue=false
+Click image template=ya8.png
+Browser switch url=https://docs.breakroom.tech/release-notes/breakroom-sdk continue=false
+Compareto ya9.png method=search2
+Browser switch url="https://curator.qa-sine.space/grid/apps?grid=1001261" continue=false
+if ({_EXIT_CODE} != 0) {
+    Warning "Your Apps Fail"
+}
+Script "Your Apps" action=end name="Your Apps"

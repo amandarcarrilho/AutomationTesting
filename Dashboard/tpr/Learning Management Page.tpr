@@ -1,0 +1,31 @@
+Script "LMS Page" name="LMS Page"
+Click image template=lms2.png
+Wait 3s
+Browser find class="button-red-square button-withicon gap-2" tagname=button elaction=click timeout=30s
+Wait 2s
+Compareto lms3.png method=search2
+Click image template=lms4.png
+Compareto lms5.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "LMS Blank Error"
+}
+Browser find tagname=textarea elaction=type eltext=Testing timeout=30s maxlength=1000 placeholder="Enter a description for this course"
+Click image template=lms4.png
+Browser find tagname=input elaction=type eltext=Testing timeout=30s type=text placeholder="Enter a name for this course"
+Browser find class="font-semibold cursor-pointer" tagname=div elaction=click timeout=30s style="color: rgb(74, 140, 183);"
+Wait 1s
+Browser find tagname=img elaction=click timeout=30s src=/static/solidColor7.png style="border-radius: 16px;"
+Click image template=lms7.png
+Wait 2s
+Click image template=lms8.png
+Compareto lms9.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "LMS Create Course Error"
+}
+Browser find class="button-red-square button-withicon mr-4 gap-2" tagname=button elaction=click timeout=30s
+Wait 1s
+Compareto lms10.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "LMS User List Error"
+}
+Script "LMS Page" action=end name="LMS Page"

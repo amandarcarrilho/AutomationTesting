@@ -1,0 +1,14 @@
+Script "Edit User" name="Edit User"
+Mouse wheeldown
+Moveto image template='''''''32.png
+Click image template=mu1734.png
+Click image template='''''''33.png
+Type Test
+Click image template='''''''34.png
+Wait 3s
+Moveto image template='''''''32.png
+Click image template=mu1734.png
+Click image template='''''''35.png
+Press BACKSPACE count=5
+Click image template='''''''34.png
+Script "Edit User" action=end name="Edit User"

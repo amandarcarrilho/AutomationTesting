@@ -1,0 +1,8 @@
+Report "results.xml"
+Exec "\"C:\Users\amand\Desktop\Testing\sinespace qa\Sinespace_Release_2026_1f864_Win64\Sinespace.exe\""
+Click image template='''''''6.png passrate=100
+Press BACKSPACE count=17
+Type automationtesterswe@gmail.com
+Click image template='''''''4.png passrate=100
+Type Testing1234
+Click image template='''''''5.png passrate=100

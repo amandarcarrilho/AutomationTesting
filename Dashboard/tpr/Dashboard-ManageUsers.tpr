@@ -1,0 +1,10 @@
+Script "Dashboard Manage Users" name="Dashboard Manage Users"
+Browser find class="font-sans text-sm font-semibold text-green-4A inline-block cursor-pointer mr-4" tagname=a elaction=click timeout=30s href="/grid/manageusers?grid=1001261"
+Wait 3s
+Compareto dashboardaddusers.png method=search2
+Click image template=dashboardaddusers.png
+Click image template=dashboard.png
+Browser find class="font-sans text-sm font-semibold text-green-4A inline-block cursor-pointer" tagname=a text=Details elaction=click timeout=30s href="/grid/manageusers?grid=1001261"
+Wait 3s
+Compareto dashboardmanageusers.png method=search2
+Script "Dashboard Manage Users" action=end name="Dashboard Manage Users"

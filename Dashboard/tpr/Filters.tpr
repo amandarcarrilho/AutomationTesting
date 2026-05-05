@@ -1,0 +1,20 @@
+Report "results.xml"
+Script "LMS Filters" name="LMS Filters"
+Browser find class="rounded p-2-5 bg-purple-F7 cursor-pointer" tagname=div elaction=click timeout=30s
+Click image template=lms73.png
+Browser find class="rounded p-2 cursor-pointer bg-purple-F7" tagname=div elaction=click timeout=30s
+Click image template=lms74.png
+Compareto lms75.png method=search2
+Click image template=lms76.png
+Compareto lms77.png method=search2
+Click image template=lms78.png
+Click image template=lms79.png
+Compareto lms80.png method=search2
+Click image template=lms81.png
+Compareto lms82.png method=search2
+Click image template=lms83.png
+Click image template=lms84.png
+Compareto lms85.png method=search2
+Click image template=lms86.png
+Compareto lms87.png method=search2
+//Stopped at Archived Quiz/Waiver 0916

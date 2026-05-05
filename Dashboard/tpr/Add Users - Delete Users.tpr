@@ -1,0 +1,25 @@
+Script "Add Users/Delete Users" name="Add Users/Delete Users"
+Wait 3s
+Browser find class=button-manageusers-red tagname=div elaction=click timeout=30s
+Browser find id=displayname0 tagname=input elaction=type eltext=TestAutomation timeout=30s placeholder="Display Name"
+Browser find id=username0 tagname=input elaction=type eltext=TestAutomator timeout=30s placeholder="User Name"
+Browser find id=email0 tagname=input elaction=type eltext=automationtesting@swe.com timeout=30s type=text placeholder=Email
+Browser find id=password0 tagname=input elaction=type eltext=Testing1234 timeout=30s type=password placeholder=Password
+Click image template='''''''26.png
+Mouse click to=x:1914,y:78
+Wait 2s
+Click image template='''''''28.png
+Browser switch url=https://qa-sine.space/worldstream/embed/GUyRUjnDgOeUwEoK continue=false
+Browser find tagname=input elaction=type eltext=TestAutomation timeout=30s required=required placeholder="Enter Email address..."
+Browser find tagname=input elaction=type eltext=Testing1234 timeout=30s type=password placeholder="Enter Password..."
+Click image template='''''''29.png
+Browser switch url="https://curator.qa-sine.space/grid/manageusers?grid=1001261" continue=false
+Mouse wheeldown
+Moveto image template='''''''30.png
+Click image template=mu1726.png
+Wait 1s
+Compareto '''''''31.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard Manage Users Issue"
+}
+Script "Add Users/Delete Users" action=end name="Add Users/Delete Users"

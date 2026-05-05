@@ -1,0 +1,6 @@
+Script "Billing History" name="Billing History"
+Compareto wc43.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Add Credits Billing Error"
+}
+Script "Billing History" action=end name="Billing History"

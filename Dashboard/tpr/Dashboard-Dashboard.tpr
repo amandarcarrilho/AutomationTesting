@@ -1,0 +1,20 @@
+Script Dashboard-DashboardV1 name=Dashboard-DashboardV1
+Run Login.tpr
+Wait 3s
+Run "Analytics Dashboard.tpr"
+Wait 3s
+Run Dashboard-YourApps.tpr
+Wait 3s
+Run Dashboard-WorldCredits.tpr
+Wait 3s
+Run Dashboard-Billing.tpr
+Wait 3s
+Run Dashboard-Branding.tpr
+Wait 3s
+Run Dashboard-WorldCustomization.tpr
+Wait 3s
+Run Dashboard-ManageUsers.tpr
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard-Dashboard FAIL"
+}
+Script Dashboard-DashboardV1 action=end name=Dashboard-DashboardV1

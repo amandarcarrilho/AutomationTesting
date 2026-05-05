@@ -1,0 +1,16 @@
+Script Dashboard-WorldCredits-and-Balance name=Dashboard-WorldCredits-and-Balance
+Mouse click to=x:1914,y:1061 count=2
+Browser find tagname=div elaction=click timeout=30s style="color: rgb(74, 140, 183);"
+Browser find class="font-sans text-sm font-semibold text-green-4A inline-block cursor-pointer" text="View More >" elaction=click timeout=30s href="/grid/worldcredits?grid=1001261"
+Wait 2s
+Compareto dashboard-worldcredits.png method=search2
+Click image template=dashboard.png
+Mouse click to=x:1914,y:1061 count=2
+Wait 3s
+Browser find class="font-sans text-sm font-semibold text-green-4A inline-block cursor-pointer" tagname=a text="Add Credits" elaction=click timeout=30s href="/grid/worldcredits?grid=1001261"
+Wait 3s
+Compareto dashboardaddcredits.png method=search2
+Wait 3s
+Click image template=dashboardaddcredits.png
+Click image template=dashboard.png
+Script Dashboard-WorldCredits-and-Balance action=end name=Dashboard-WorldCredits-and-Balance

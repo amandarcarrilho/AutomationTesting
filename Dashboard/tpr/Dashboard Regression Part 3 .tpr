@@ -1,0 +1,3 @@
+Report "results.xml"
+Run "Integration V1.tpr"
+Run "LMS V1.tpr"

@@ -1,0 +1,23 @@
+Script "Support V1" name="Support V1"
+Mouse wheeldown to=x:363,y:482 count=6
+Click image template=sup1.png
+Wait 3s
+Compareto sup2.png method=search2
+Click image template=sup3.png
+Type Testing
+Click image template=sup4.png
+Type automationtesterswe@gmail.com
+Mouse wheeldown to=x:758,y:681 count=6
+Click image template=sup5.png
+Type "Testing Automation"
+Click image template=sup6.png
+Click image template=sup7.png
+Click image template=sup8.png
+Type "Testing Automation Regression"
+Mouse wheeldown to=x:758,y:681 count=6
+Click image template=sup9.png
+Compareto sup10.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Support FAIL"
+}
+Script "Support V1" action=end name="Support V1"

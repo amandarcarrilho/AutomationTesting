@@ -1,0 +1,11 @@
+Script "Add New Credit Panel" name="Add New Credit Panel"
+Browser find class="text-xs font-semibold font-monts text-white" tagname=div elaction=click timeout=30s
+Click image template=wc44.png
+Browser find class="text-xs font-semibold font-monts text-white" tagname=div elaction=click timeout=30s
+Wait 3s
+Compareto wc45.png method=search2
+Click image template=wc46.png
+Moveto image template=wc47.png
+Compareto wc150049.png method=search2
+Click image template=wc02.png
+Script "Add New Credit Panel" action=end name="Add New Credit Panel"

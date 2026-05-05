@@ -1,0 +1,16 @@
+Script Steps name=Steps
+Wait 3s
+Click image template=integration222.png
+Mouse wheeldown
+Browser find class="bg-purple-57 rounded-full p-2 ml-2 cursor-pointer" tagname=div elaction=click timeout=30s
+Compareto int3.png method=search2
+Browser find class="bg-purple-57 rounded-full p-2 ml-2 cursor-pointer" tagname=div elaction=click timeout=30s
+Compareto int4.png method=search2
+Browser find class="bg-purple-57 rounded-full p-2 ml-2 cursor-pointer" tagname=div elaction=click timeout=30s
+Compareto int5.png method=search2
+Browser find class="bg-purple-57 rounded-full p-2 ml-2 cursor-pointer" tagname=div elaction=click timeout=30s
+Compareto int6.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Integration Steps Error"
+}
+Script Steps action=end name=Steps

@@ -1,0 +1,101 @@
+Script Regions name=Regions
+Click image template="Captura de tela 2026-03-26 26.png"
+Wait 3s
+Click image template=image29.png
+Wait 3s
+Compareto "Captura de tela 2026-03-26 31.png" method=search2
+if ({_EXIT_CODE} == 0) {
+    Wait 3s
+    Click image template=image31.png
+    Compareto image32.png method=search2
+}
+if ({_EXIT_CODE} != 0) {
+    Warning "Regions Enable-Disable Error"
+}
+Moveto image template="Captura de tela 2026-03-26 28.png"
+Wait 1s
+Click image template="Captura de tela 2026-03-26 127.png"
+Click image template=image33.png
+Compareto image34.png method=search2
+if ({_EXIT_CODE} == 0) {
+    Moveto image template="Captura de tela 2026-03-26 33.png"
+    Click image template="Captura de tela 2026-03-26 128.png"
+    Wait 2s
+    Click image template=image35.png
+    Wait 3s
+    Click image template=image36.png
+}
+Wait 3s
+Click image template="Captura de tela 2026-03-26 129.png"
+Click image template=image37.png
+Click image template=image38.png
+Wait 3s
+Click image template=image39.png
+Compareto image40.png method=search2
+if ({_EXIT_CODE} == 0) {
+    Wait 2s
+    Click image template="Captura de tela 2026-03-26 35.png"
+    Click image template=image41.png
+}
+if ({_EXIT_CODE} != 0) {
+    Warning "Regions Default Landing Error"
+}
+Wait 3s
+Click image template="Captura de tela 2026-03-26 46.png"
+Wait 2s
+Click image template="Captura de tela 2026-03-26 37.png"
+Wait 3s
+Compareto image43.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Regions Featured Error"
+}
+if ({_EXIT_CODE} == 0) {
+    Click image template="Captura de tela 2026-03-26 38.png"
+    Click image template="Captura de tela 2026-03-26 39.png"
+}
+Wait 3s
+Click image template="Captura de tela 2026-03-26 47.png"
+Click image template="Captura de tela 2026-03-26 40.png"
+Wait 2s
+Compareto "Captura de tela 2026-03-26 41.png" method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Regions Edit Region Error"
+}
+Browser find class="text-base font-monts border border-black-66 rounded-2 w-full px-6 py-3 mt-4" tagname=input elaction=click timeout=30s maxlength=50 type=text
+Press Ctrl+A
+Press BACKSPACE
+Type "Test Region 2"
+Browser find class="w-full text-base font-monts mt-4 border rounded-2 border-black-66 h-36 px-6 py-3 outline-none resize-none" tagname=textarea elaction=click timeout=30s maxlength=200
+Press Ctrl+A
+Press BACKSPACE
+Type "Test Region 2"
+Browser find class=button-red tagname=button text="SAVE CHANGES" elaction=click timeout=30s
+Wait 3s
+Compareto image47.png method=search2
+if ({_EXIT_CODE} == 0) {
+    Click image template="Captura de tela 2026-03-26 42.png"
+    Click image template="Captura de tela 2026-03-26 45.png"
+    Browser find class="text-base font-monts border border-black-66 rounded-2 w-full px-6 py-3 mt-4" tagname=input elaction=click timeout=30s maxlength=50 type=text
+    Press Ctrl+A
+    Press BACKSPACE
+    Type "Region 3"
+    Browser find class="w-full text-base font-monts mt-4 border rounded-2 border-black-66 h-36 px-6 py-3 outline-none resize-none" tagname=textarea elaction=click timeout=30s maxlength=200
+    Press Ctrl+A
+    Press BACKSPACE
+    Type "Region 3"
+    Browser find class=button-red tagname=button text="SAVE CHANGES" elaction=click timeout=30s
+}
+Browser find class="normal-case tracking-normal" tagname=div text="Create Region" elaction=click timeout=30s
+Browser find class="w-40 h-20 mx-auto rounded-8 grid-region-itemtwo object-cover" tagname=img elaction=click timeout=30s src=https://cdn.sine.space/release/v20/3E/75/2258238/Preview.jpg
+Mouse drag to=x:1911,y:1004 from=x:1914,y:706
+Browser find id=SaveRegionTemplateBtn tagname=button elaction=click timeout=30s
+Compareto "Captura de tela 2026-03-26 43.png" method=search2
+if ({_EXIT_CODE} == 0) {
+    Click image template="Captura de tela 2026-03-26 48.png"
+    Click image template=image49.png
+    Click image template="Captura de tela 2026-03-26 49.png"
+}
+if ({_EXIT_CODE} != 0) {
+    Warning "Regions Create Region Error"
+}
+Script Regions action=end name=Regions

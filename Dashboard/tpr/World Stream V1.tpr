@@ -1,0 +1,6 @@
+Run "World tream Usage.tpr"
+Run "Manage World Stream Usage.tpr"
+Run "Book Pre-allocation.tpr"
+if ({_EXIT_CODE} != 0) {
+    Warning "World Stream FAIL"
+}

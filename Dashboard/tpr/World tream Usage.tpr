@@ -1,0 +1,32 @@
+Script "World Stream Usage" name="World Stream Usage"
+Click image template=ws78.png
+Browser find class="font-semibold font-monts text-xs text-green-4A cursor-pointer" tagname=div elaction=click timeout=30s
+Wait 3s
+Compareto ws2.png method=search2
+Compareto wsultra.png method=search2
+Compareto wsultra2.png method=search2
+Compareto wslite.png method=search2
+Compareto wslite2.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "World Stream Server Error"
+}
+Click image template=ws3.png
+Browser find class="flex items-center justify-center rounded border px-3 py-1" tagname=div elaction=click timeout=30s style="background-color: rgb(53, 55, 72); border-color: rgb(255, 104, 94);"
+Click image template=ws79.png
+Wait 2s
+Press BACKSPACE count=9
+Type 1000
+Wait 3s
+Click image template=ws80.png
+Wait 3s
+Click image template=ws9.png passrate=100
+Wait 5s
+Compareto ws6.png method=search2
+Click image template=ws11.png
+Wait 2s
+Click image template=ws72.png
+Wait 2s
+Click image template=ws71.png
+Wait 2s
+Click image template=ws12.png
+Script "World Stream Usage" action=end name="World Stream Usage"

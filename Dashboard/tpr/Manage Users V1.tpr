@@ -1,0 +1,10 @@
+Script "Manage Users V1" name="Manage Users V1"
+Run "Search by name.tpr"
+Run "Add Users - Delete Users.tpr"
+Run "Edit User.tpr"
+Run "Import-Export Users.tpr"
+if ({_EXIT_CODE} != 0) {
+    Warning "Manage Users FAIL"
+}
+
+Script "Manage Users V1" action=end name="Manage Users V1"

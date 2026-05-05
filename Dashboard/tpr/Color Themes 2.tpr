@@ -1,0 +1,61 @@
+Script "Color Themes" name="Color Themes"
+Click image template="Captura de tela 2026-03-26 13.png"
+Mouse drag to=x:1913,y:867 from=x:1911,y:721
+Click image template=comp0326-45
+Click image template=comp0326-46
+Type 255
+Press Enter wait=800
+Click image template=comp0326-47
+Click image template=comp0326-48
+Type 25
+Press Enter wait=800
+Click image template=comp0326-49
+Click image template=comp0326-50
+Type 5
+Press Enter
+Click image template=comp0326-51
+Click image template=comp0326-52
+Type 7
+Press Enter
+Click image template=comp0326-53
+Click image template=comp0326-54
+Type 169
+Press Enter
+Click image template=comp0326-55
+Click image template=comp0326-56
+Type 7
+Press Enter
+Browser find id=SaveUIColorBtn class=button-red tagname=button text="SAVE CHANGES" elaction=click timeout=30s
+Compareto "Captura de tela 2026-03-26 12.png" method=search2
+if ({_EXIT_CODE} == 0) {
+    Click image template=comp0326-57
+    Click image template=comp0326-58
+    Type 88
+    Press Enter
+    Click image template=comp0326-59
+    Click image template=comp0326-60
+    Type 8
+    Press Enter
+    Moveto image template=comp0326-71 wait=200
+    Click image template=comp0326-72
+    Click image template=comp0326-73
+    Type 205
+    Press Enter
+    Click image template=comp0326-64
+    Click image template=comp0326-66
+    Type 238
+    Press ENTER
+    Click image template=comp0326-67
+    Click image template=comp0326-68
+    Type 0
+    Press Enter wait=1300
+    Click image template=comp0326-69
+    Click image template=comp0326-70
+    Type 255
+    Press Enter
+    Browser find id=SaveUIColorBtn class=button-red tagname=button text="SAVE CHANGES" elaction=click timeout=30s
+}
+if ({_EXIT_CODE} != 0) {
+    Warning "World Customization Color Theme Error"
+}
+Script "Color Themes" action=end name="Color Themes"

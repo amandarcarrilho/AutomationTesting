@@ -1,0 +1,8 @@
+Script "Media Library" name="Media Library"
+Click image template=lms88.png
+Compareto lms89.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Media Library FAIL"
+}
+
+Script "Media Library" action=end name="Media Library"

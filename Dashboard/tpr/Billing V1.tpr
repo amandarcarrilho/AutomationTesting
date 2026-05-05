@@ -1,0 +1,27 @@
+Script "Billing V1" name="Billing V1"
+Click image template=bil1.png
+//payment
+Compareto bil4.png method=search2
+Compareto bil2.png method=search2
+//Edit card
+Compareto bil2.png method=search2
+Browser find class="font-cairo text-xs font-semibold text-green-4A cursor-pointer" tagname=div elaction=click timeout=30s
+Browser find tagname=input elaction=click timeout=30s placeholder="First Name"
+Type 1
+Click image template=bil3.png
+Compareto bil5.png method=search2
+Browser find class="font-cairo text-xs font-semibold text-green-4A cursor-pointer" tagname=div elaction=click timeout=30s
+Browser find tagname=input elaction=click timeout=30s placeholder="First Name"
+Press BACKSPACE
+//Add Card button
+Browser find class="bg-white-F4 rounded p-2-5 mr-3 cursor-pointer" tagname=div elaction=click timeout=30s
+Compareto bil6.png method=search2
+Click image template=bil7.png
+//Order History
+Compareto bil8.png method=search2
+Click image template=bil9.png
+if ({_EXIT_CODE} != 0) {
+    Warning "Billing FAIL"
+}
+
+Script "Billing V1" action=end name="Billing V1"

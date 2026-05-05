@@ -1,0 +1,64 @@
+Script "Book Pre-Allocation" name="Book Pre-Allocation"
+Browser find class="w-full h-12 rounded font-bold leading-6 text-base font-monts text-white" tagname=button elaction=click timeout=30s style="background-color: rgb(255, 104, 94);"
+Mouse wheeldown to=x:1871,y:515 count=3
+Wait 2s
+Compareto ws49.png method=search2
+Click image template=ws50.png
+Compareto ws51.png method=search2
+Click image template=ws51.png
+Mouse wheeldown count=9
+Click image template=ws52.png
+Compareto ws53.png method=search2
+Click image template=ws53.png
+Compareto ws54.png method=search2
+Click image template=ws55.png
+Press Ctrl+A
+Press BACKSPACE
+Type 10
+Click image template=ws56.png
+Click image template=ws57.png
+Click image template=ws58.png
+Click image template=ws59.png
+Compareto ws60.png method=search2
+Click image template=ws61.png
+Wait 3s
+Browser find class="mt-1 text-green-4A cursor-pointer flex" tagname=div elaction=click timeout=30s
+Click image template=ws62.png
+Wait 5s
+Browser find class="w-full h-12 rounded font-bold leading-6 text-base font-monts text-white" tagname=button elaction=click timeout=30s style="background-color: rgb(255, 104, 94);"
+Mouse wheeldown count=7
+Click image template=ws63.png
+Press Ctrl+A
+Press BACKSPACE
+Type 1000
+Click image template=ws56.png
+Click image template=ws57.png
+Click image template=ws58.png
+Click image template=ws59.png
+Compareto ws64.png method=search2
+Click image template=ws66.png
+Press Ctrl+A
+Press BACKSPACE
+Type 10
+Click image template=ws61.png
+Wait 3s
+Browser find class="mb-1 text-green-4A cursor-pointer" tagname=div elaction=click timeout=30s
+Mouse click to=x:1914,y:1059
+Click image template=ws65.png
+Press Ctrl+A
+Press BACKSPACE
+Type 1000
+Click image template=ws67.png
+Compareto ws68.png method=search2
+Click image template=worldcredits.png
+Wait 3s
+
+Compareto ws69.png method=search2
+Wait 2s
+Click image template=ws78.png
+Mouse click to=x:1912,y:1044
+Browser find class="mt-1 text-green-4A cursor-pointer flex" tagname=div elaction=click timeout=30s
+Click image template=ws62.png
+Wait 1s
+
+Script "Book Pre-Allocation" action=end name="Book Pre-Allocation"

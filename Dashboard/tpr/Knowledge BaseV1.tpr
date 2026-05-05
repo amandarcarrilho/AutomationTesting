@@ -1,0 +1,30 @@
+Script "Knowledge Base" name="Knowledge Base"
+Mouse wheeldown to=x:384,y:472 count=5
+Click image template=sup11.png
+Wait 2s
+Compareto sup12.png method=search2
+Browser find tagname=a elaction=click timeout=30s href=https://docs.breakroom.tech/creating-custom-experiences
+Browser switch url=https://docs.breakroom.tech/creating-custom-experiences/branding-tools continue=false
+Compareto sup13.png method=search2
+Browser switch url="https://curator.qa-sine.space/grid/resources?grid=1001261" continue=false
+Browser find tagname=a elaction=click timeout=30s href=https://docs.breakroom.tech/opening-the-doors
+Browser switch url=https://docs.breakroom.tech/opening-the-doors/seats-and-concurrency continue=false
+Compareto sup14.png method=search2
+Browser switch url="https://curator.qa-sine.space/grid/resources?grid=1001261" continue=false
+Browser find tagname=a elaction=click timeout=30s href=https://docs.breakroom.tech/running-your-event/
+Browser switch url=https://docs.breakroom.tech/running-your-event/understanding-the-conference-system continue=false
+Compareto sup15.png method=search2
+Browser switch url="https://curator.qa-sine.space/grid/resources?grid=1001261" continue=false
+Browser find tagname=a elaction=click timeout=30s href=https://docs.breakroom.tech/building-new-worlds/breakroom-dashboard-tour
+Browser switch url=https://docs.breakroom.tech/building-new-worlds/breakroom-dashboard-tour continue=false
+Compareto sup16.png method=search2
+Browser switch url="https://curator.qa-sine.space/grid/resources?grid=1001261" continue=false
+Mouse wheeldown to=x:1873,y:638 count=2
+Browser find tagname=a elaction=click timeout=30s href=https://docs.breakroom.tech/running-your-event/setting-up-breakroom-for-training-courses
+Browser switch url=https://docs.breakroom.tech/breakroom-for-training/installing-breakroom-for-training continue=false
+Compareto sup17.png method=search2
+Browser switch url="https://curator.qa-sine.space/grid/resources?grid=1001261" continue=false
+if ({_EXIT_CODE} != 0) {
+    Warning "Knowledge Base FAIL"
+}
+Script "Knowledge Base" action=end name="Knowledge Base"

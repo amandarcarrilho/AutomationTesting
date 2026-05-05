@@ -1,0 +1,29 @@
+Script "Select and Filters" name="Select and Filters"
+Click image template=lmsseelect.png
+Click image template=lms19.png
+Click image template=lms20.png
+Wait 2s
+Click image template=lmsseelect.png
+Click image template=lms21.png
+Click image template=lms22.png
+Wait 2s
+Click image template=lmsseelect.png
+Click image template=lms19.png
+Click image template=lms23.png
+Wait 2s
+Click image template=lms24.png
+Browser find class="rounded py-1-5 px-5 cursor-pointer" tagname=div elaction=click timeout=30s style="background: rgba(110, 94, 178, 0.12);"
+Click image template=lms0011.png
+Click image template=lms23.png
+Click image template=lms26.png
+Browser find class="rounded p-2-5 ml-4 cursor-pointer bg-purple-F7" tagname=div elaction=click timeout=30s
+Click image template=lms27.png
+Wait 3s
+Compareto lms28.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "LMS Filters Error"
+}
+Click image template=lms32.png
+Click image template=lms33.png
+Click image template=lms29.png
+Script "Select and Filters" action=end name="Select and Filters"

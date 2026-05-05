@@ -1,0 +1,45 @@
+Script "List View Archived" name="List View Archived"
+Click image template=lms94.png
+Browser find class="rounded p-2 cursor-pointer bg-purple-F7" tagname=div elaction=click timeout=30s
+Click image template=lms95.png
+Wait 3s
+Compareto lms96.png method=search2
+Click image template=lms97.png
+Click image template=lms98.png
+Click image template=lms91818.png
+Wait 3s
+Click image template=lms99292.png
+//Edit Quiz
+Click image template=lms100.png
+Click image template=lms101.png
+Browser find tagname=input elaction=click timeout=30s placeholder="Enter quiz title"
+Type 0
+Click image template=lms102.png
+Wait 3s
+Compareto lms103.png method=search2
+Click image template=lms104.png
+Click image template=lms107.png
+Click image template=lms108.png
+Browser find tagname=input elaction=click timeout=30s placeholder="Enter quiz title"
+Press BACKSPACE
+Click image template=lms102.png
+Wait 3s
+Click image template=lms104.png
+//Edit Waiver
+Click image template=lms105.png
+Click image template=lms106.png
+Click image template=0000.png
+Type 0
+Click image template=lms102.png
+Wait 3s
+Compareto lms109.png method=search2
+Click image template=lms104.png
+//Duplicate
+Click image template=lms112.png
+Click image template=lms113.png
+Wait 3s
+Compareto lms114.png method=search2
+Click image template=lms115.png
+Click image template=lms116.png
+Click image template=lms110.png
+Script "List View Archived" action=end name="List View Archived"

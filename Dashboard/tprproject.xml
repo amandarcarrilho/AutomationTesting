@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><tprproject>
+    <date>24-03-26 14:36</date>
+    <uid>p19d20eb1f62</uid>
+    <editor>C:\Users\amand\FULL REGRESSION\tpr\List View Archived.tpr</editor>
+    <ver>1</ver>
+    <workitems/>
+    <offset>1479</offset>
+    <paths>
+        <reports>reports</reports>
+        <templates>templates</templates>
+        <schedules>schedules</schedules>
+        <stype1>tpr</stype1>
+        <stype2>src</stype2>
+        <sotype2>classes</sotype2>
+    </paths>
+    <tver>8.2.2-20260210.1</tver>
+    <lastmod>04-05-26 15:43</lastmod>
+    <editors>tpr\Full Dashboard Regression.tpr;tpr\LMS V1.tpr;tpr\LMS Page.tpr;tpr\Learning Management Page.tpr;tpr\User List.tpr;tpr\Select and Filters.tpr;tpr\Searches.tpr;tpr\Grid View-List .tpr;tpr\Dashboard-Dashboard.tpr;tpr\Login.tpr;tpr\List View Archived.tpr</editors>
+    <topoffset>397</topoffset>
+</tprproject>

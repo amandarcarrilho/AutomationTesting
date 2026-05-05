@@ -1,0 +1,3 @@
+Report "results.xml"
+Run Dashboard-Dashboard.tpr
+Run Dashboard-WorldCustomization.tpr

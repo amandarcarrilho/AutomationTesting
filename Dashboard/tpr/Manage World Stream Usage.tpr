@@ -1,0 +1,64 @@
+Script "Manage World Stream Usage" name="Manage World Stream Usage"
+Click image template=ws78.png
+Compareto ws13.png method=search2
+Compareto ws14.png method=search2
+Compareto ws15.png method=search2
+Compareto ws18.png method=search2
+Click image template=ws46.png
+Press BACKSPACE count=4
+Type 600
+Click image template=ws17.png
+Wait 3s
+Click image template=ws44.png
+Browser find class="w-30 h-9 bg-purple-F7 flex justify-center items-center cursor-pointer" tagname=div elaction=click timeout=30s
+Press BACKSPACE count=5
+Type 60
+Click image template=ws20.png
+Wait 3s
+Click image template=ws21.png
+Browser find class="w-30 h-9 bg-purple-F7 flex justify-center items-center cursor-pointer" tagname=div elaction=click timeout=30s
+Press BACKSPACE count=4
+Type 60
+Wait 1s
+Click image template=ws22.png
+Compareto ws23.png method=search2
+//Cancel Button
+Click image template=ws24.png
+Press BACKSPACE count=4
+Type 50
+Click image template=ws25.png
+Compareto ws26.png method=search2
+Click image template=ws27.png
+Press BACKSPACE count=4
+Type 50
+Click image template=ws28.png
+Compareto ws29.png method=search2
+Click image template=ws48.png
+Press BACKSPACE count=4
+Type 50
+Click image template=ws30.png
+Compareto ws31.png method=search2
+Wait 2s
+Click image template=ws32.png
+Press BACKSPACE count=4
+Click image template=ws77.png
+Compareto ws34.png method=search2
+Browser find class="w-30 h-9 bg-purple-F7 flex justify-center items-center cursor-pointer" tagname=div elaction=click timeout=30s
+Click image template=ws35.png
+Compareto ws36.png method=search2
+Wait 2s
+Click image template=ws75.png
+Wait 2s
+Browser find class="w-30 h-9 bg-purple-F7 flex justify-center items-center cursor-pointer" tagname=div elaction=click timeout=30s
+Click image template=ws38.png
+Click image template=ws39.png passrate=100
+Wait 3s
+Press BACKSPACE count=4
+Type 140
+Click image template=ws40.png
+Click image template=ws41.png
+Click image template=ws42.png
+Press BACKSPACE count=4
+Type 120
+Click image template=ws43.png
+Script "Manage World Stream Usage" action=end name="Manage World Stream Usage"

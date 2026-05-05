@@ -1,0 +1,28 @@
+Report results.xml
+Run Dashboard-Dashboard.tpr
+Wait 1s
+Run "World Customization V1.tpr"
+Wait 1s
+Run "World Credits V1.tpr"
+Wait 1s
+Run "Manage Users V1.tpr"
+Wait 1s
+Run "World Stream V1.tpr"
+Wait 1s
+Run "Integration V1.tpr"
+Wait 1s
+Run "LMS V1.tpr"
+Wait 1s
+Run "Media Library.tpr"
+Wait 1s
+Run "Billing V1.tpr"
+Wait 1s
+Run "Your Apps V1.tpr"
+Wait 1s
+Run "Analytics V1.tpr"
+Wait 1s
+Run "Support V1.tpr"
+Wait 1s
+Run "Knowledge BaseV1.tpr"
+Wait 1s
+Run "Settings V1.tpr"

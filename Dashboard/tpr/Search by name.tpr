@@ -1,0 +1,44 @@
+Script Search name=Search
+Click image template=MU3.png
+Click image template=MU7.png passrate=100
+Type AutomationTester2
+Press ENTER
+Compareto mu8.png method=search2
+Click image template=MU12.png
+Click image template=mu47.png
+Wait 1s
+Compareto MU13.png method=search2
+if ({_EXIT_CODE} == 0) {
+    Click image template='''''''14.png
+    Click image template=MU59.png
+}
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard Manage Users Search Error"
+}
+Click image template=mu330.png
+Compareto '''''''11.png method=search2
+Click image template='''''''15.png
+Click image template=mu1601.png
+if ({_EXIT_CODE} != 0) {
+    Warning "Dashboard Manage Users User Type Error"
+}
+Click image template='''''''16.png
+Click image template='''''''17.png
+Mouse drag to=x:1913,y:1053 from=x:1911,y:949
+Browser find class="font-cairo font-semibold text-black-EF outline-none bg-gray-EF p-1 rounded" tagname=select elaction=select eltext=50 timeout=30s
+Moveto image template=mu100.png wait=2300
+Click image template=mu1616.png
+Click image template='''''''21.png
+Click image template='''''''22.png
+Wait 3s
+Compareto mu9.png method=search2
+if ({_EXIT_CODE} == 0) {
+    Moveto image template='''''''24.png
+    Click image template=mu1624.png
+    Wait 3s
+    Moveto image template='''''''25.png
+    Click image template='''''''25.png
+    Wait 3s
+    Click image template='''''''22.png
+}
+Script Search action=end name=Search

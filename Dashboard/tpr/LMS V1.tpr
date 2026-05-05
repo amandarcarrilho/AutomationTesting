@@ -1,0 +1,7 @@
+Run "LMS Page.tpr"
+Run Searches.tpr
+Run "Grid View-List .tpr"
+Run "List View Archived.tpr"
+if ({_EXIT_CODE} != 0) {
+    Warning "LMS FAIL"
+}

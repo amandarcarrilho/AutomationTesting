@@ -1,0 +1,8 @@
+Report "results.xml"
+Run "Media Library.tpr"
+Run "Billing V1.tpr"
+Run "Your Apps V1.tpr"
+Run "Analytics V1.tpr"
+Run "Support V1.tpr"
+Run "Knowledge BaseV1.tpr"
+Run "Settings V1.tpr"

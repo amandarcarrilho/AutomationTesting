@@ -1,0 +1,22 @@
+Script "User List" name="User List"
+Browser find tagname=div elaction=click timeout=30s style="margin-right: 13px; width: 107px;"
+Wait 3s
+Compareto lms12.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "LMS User List Waiver Error"
+}
+Click image template=lms13.png
+Wait 3s
+Compareto lms10.png method=search2
+Browser find tagname=div elaction=click timeout=30s style="width: 107px;"
+Wait 3s
+Compareto lms14.png method=search2
+Compareto lms15.png method=search2
+Click image template=lms16.png
+Wait 3s
+Compareto lms10.png method=search2
+Click image template=lms17.png
+if ({_EXIT_CODE} != 0) {
+    Warning "LMS Quiz/Waiver Error"
+}
+Script "User List" action=end name="User List"

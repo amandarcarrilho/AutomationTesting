@@ -1,0 +1,15 @@
+Script "Application URL" name="Application URL"
+Click image template=int7.png
+Compareto int1321.png method=search2
+Click image template="Captura de tela 2026-04-01 5.png"
+Press BACKSPACE count=3
+Type 321
+Click image template="Captura de tela 2026-04-01 3.png"
+Mouse click to=x:1912,y:1009
+Compareto int1326.png method=search2
+Click image template=int04.png
+Compareto int1331.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "Integration Application URL Error"
+}
+Script "Application URL" action=end name="Application URL"

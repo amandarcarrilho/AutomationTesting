@@ -1,0 +1,9 @@
+Script "LMS Search" name="LMS Search"
+Press F5
+Compareto lms30.png method=search2
+Browser find tagname=input elaction=click timeout=30s type=text placeholder="Search by course name, quiz name, waiver name, syllabus name, display name, or username."
+Type Testing
+Press ENTER
+Wait 4s
+Compareto lms34.png method=search2
+Script "LMS Search" action=end name="LMS Search"

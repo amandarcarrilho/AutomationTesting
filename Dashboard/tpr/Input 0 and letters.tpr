@@ -1,0 +1,17 @@
+Script "Input 0 and letters" name="Input 0 and letters"
+Wait 3s
+Browser find class="cursor-pointer text-green-4A" tagname=div elaction=click timeout=30s
+Click image template=wc26.png
+Press Ctrl+A
+Press BACKSPACE
+Click image template=wcsla.png
+Browser find tagname=div text="Please enter a valid value. (Multiples of 1000)" elaction=click timeout=30s
+Mouse click to=x:653,y:340
+Type AAAA
+Wait 1s
+Compareto wc42.png method=search2
+if ({_EXIT_CODE} != 0) {
+    Warning "World Credits Input Letters Error"
+}
+Click image template=wc11.png
+Script "Input 0 and letters" action=end name="Input 0 and letters"
