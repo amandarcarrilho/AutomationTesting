@@ -1,7 +1,0 @@
-Script Dashboard-WorldCustomization name=Dashboard-WorldCustomization
-Click image template=dashboardworldcustom.png
-Browser find class="font-sans text-sm font-semibold text-green-4A inline-block cursor-pointer" text=Edit elaction=click timeout=30s href="/grid/editgrid?grid=1001261"
-Wait 3s
-Compareto dashboardworldcustompage.png method=search2
-Click image template=dashboard.png
-Script Dashboard-WorldCustomization action=end name=Dashboard-WorldCustomization
